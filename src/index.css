@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "futura_bk_bt";
+  font-family: "Futura Bk BT";
   src: url(./assets/font/futura_bk_bt/FutuBk.ttf);
 }
 .ff_futura {
-  font-family: "futura_bk_bt";
+  font-family: "Futura Bk BT";
 }
 :root {
   --fs-sm: 16px;
@@ -105,4 +105,68 @@
   text-transform: capitalize;
   font-weight: 400;
   font-size: var(--fs-md);
+  font-family: "Futura Bk BT";
+}
+.op01 {
+  opacity: 0.1;
+}
+.op05 {
+  opacity: 0.5;
+}
+.op07 {
+  opacity: 0.7;
+}
+.heading_common {
+  font-family: "Futura Bk BT";
+  font-weight: 400;
+  font-size: var(--fs-4x4l);
+  line-height: 150%;
+  text-transform: capitalize;
+}
+.peragraph_common {
+  font-family: "Futura Bk BT";
+  font-weight: 400;
+  font-size: var(--fs-md);
+  line-height: 160%;
+  opacity: 0.7;
+}
+
+.transition300 {
+  transition: all 300ms linear;
+}
+.z_index-1 {
+  z-index: -1;
+}
+.z_index1 {
+  z-index: 1;
+}
+.z_index2 {
+  z-index: 2;
+}
+.z_index3 {
+  z-index: 3;
+}
+.z_index4 {
+  z-index: 4;
+}
+.z_index5 {
+  z-index: 5;
+}
+.z_index6 {
+  z-index: 6;
+}
+.z_index7 {
+  z-index: 7;
+}
+.z_index8 {
+  z-index: 8;
+}
+.z_index9 {
+  z-index: 9;
+}
+.z_index10 {
+  z-index: 10;
+}
+.cursor_pointer {
+  cursor: pointer;
 }
