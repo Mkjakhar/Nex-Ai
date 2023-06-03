@@ -18,7 +18,7 @@
   margin: 4px;
   transition: all 0.4s ease-in-out;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -29,7 +29,7 @@
 .falseline1 {
   width: 100%;
   height: 2px;
-  background: #000000 !important;
+  background: #ffffff !important;
   transition: all 0.4s ease-in-out;
   border-radius: 50px;
   transform: rotate(45deg) translate(6%, 15%);
@@ -38,7 +38,7 @@
 .falseline3 {
   width: 100%;
   height: 2px;
-  background: #030303 !important;
+  background: #ffffff !important;
   transition: all 0.4s ease-in-out;
   border-radius: 50px;
   transform: rotate(-45deg) translate(0, 0);
@@ -48,7 +48,8 @@
   position: fixed;
   width: 100%;
   height: 100vh !important;
-  background: var(--bg-Main) !important;
+  background: #121b2859 !important;
+  backdrop-filter: blur(25px);
   left: 0 !important;
   top: 0;
   z-index: 999 !important;
@@ -60,9 +61,19 @@
   position: absolute;
   width: 100vw;
   height: 100vh !important;
-  background: var(--bg-Main) !important;
+  background: #121b2859 !important;
+
+  backdrop-filter: blur(25px);
+
   left: -100%;
   top: 0;
   transition: all 0.4s ease-in-out;
   z-index: 999 !important;
+}
+#header nav {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.hero_bg_gradient {
+  background: #121b28;
 }
