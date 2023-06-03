@@ -5,6 +5,13 @@
   text-decoration: none !important;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "futura_bk_bt";
+  src: url(./assets/font/futura_bk_bt/FutuBk.ttf);
+}
+.ff_futura {
+  font-family: "futura_bk_bt";
+}
 :root {
   --fs-sm: 16px;
   --fs-md: 18px;
