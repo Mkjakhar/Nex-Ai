@@ -74,6 +74,39 @@
   background: rgba(255, 255, 255, 0.06);
 }
 
-.hero_bg_gradient {
+.nav_bg_gradient {
   background: #121b28;
+}
+#hero.sec_bg_gradient {
+  background: #020b1a;
+  z-index: 1;
+  position: relative;
+}
+.header_img {
+  width: 100%;
+}
+
+@media (min-width: 575.9px) {
+}
+@media (min-width: 767.9px) {
+}
+@media (min-width: 991.9px) {
+  .header_img {
+    position: absolute;
+    width: 1132px;
+    height: 700px;
+    bottom: 2%;
+    z-index: -1;
+    right: 0%;
+  }
+}
+@media (min-width: 1199.9px) {
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1439.9px) {
 }

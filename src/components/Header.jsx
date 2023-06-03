@@ -10,7 +10,7 @@ function Header(props) {
     document.body.style.overflow = "initial";
   }
   return (
-    <section id="header" className="w-100 hero_bg_gradient">
+    <section id="header" className="w-100 nav_bg_gradient">
       <nav
         data-aos="fade-down"
         data-aos-offset="0"
@@ -19,7 +19,7 @@ function Header(props) {
         className="shadow_nav z_index2 position-relative"
       >
         <div className="container ">
-          <div className="d-flex justify-content-between align-items-center pt-sm-4 py-3">
+          <div className="d-flex justify-content-between align-items-center py-1">
             <ul className="mb-0 p-0">
               <Link to="/">
                 <img className="logo_size" src={logo} alt="LOGO-ICON" />
@@ -40,7 +40,7 @@ function Header(props) {
               <div className={navShow ? "falseline" : " threelinechild"}></div>
               <div className={navShow ? "falseline3 " : "threelinechild"}></div>
             </div>
-            <ul className="mb-0 p-0 d-flex gap-xl-5 gap-4 d-none d-lg-flex me-lg-5 pe-lg-4">
+            <ul className="mb-0 p-0 d-flex gap-xl-5 gap-4 d-none d-lg-flex">
               <li className="ms-lg-3">
                 <Link
                   style={{ letterSpacing: "0.23em" }}
