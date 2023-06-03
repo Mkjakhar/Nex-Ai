@@ -85,6 +85,12 @@
 .header_img {
   width: 100%;
 }
+#footer {
+  background: rgba(11, 10, 10, 0.08);
+}
+#footer a:hover svg path {
+  fill: #0085ff;
+}
 
 @media (min-width: 575.9px) {
 }

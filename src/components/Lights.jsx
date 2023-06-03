@@ -14,7 +14,7 @@ function Lights() {
   };
   return (
     <>
-      <section style={{ background: "#FFE4C7" }}>
+      <section style={{ background: "#FFE4C7" }} className="py-5">
         {/* <div className="container"> */}
         <div className="row align-items-center">
           <div className="col-lg-7">

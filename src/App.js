@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Assistant from "./components/Assistant";
 import WeDoes from "./components/WeDoes";
 import Lights from "./components/Lights";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Assistant />
         <WeDoes />
         <Lights />
+        <Footer />
       </div>
     </>
   );
