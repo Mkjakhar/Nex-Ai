@@ -4,6 +4,7 @@
   list-style-type: none;
   text-decoration: none !important;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 @font-face {
   font-family: "Futura Bk BT";
@@ -24,13 +25,15 @@
   /*  */
   --clr-light-white: #fcfcfc;
   --clr-dark-black: #0b0a0a;
+  --bg_hover: #0b0a0a0a;
   --clr-dark-blue: #1c2ac9;
   --clr-Light-pink: #fff7f7;
   --clr-Light-yellow: #fffdea;
   --clr-Light-grey: #bfbfbf;
   --clr-bg-black: #050505;
-  --clr-light-sky: #edffff;
+  --clr-light-Green: #edffef;
   --clr-bg-yellow: #ffe4c7;
+  --clr-bg-lightblue: #f5f6ff;
   /*  */
   --fw-med: 500;
 }
@@ -71,23 +74,30 @@
 .text_dark_blue {
   color: var(--clr-dark-blue);
 }
-.text_light_pink {
-  color: var(--clr-Light-pink);
+.bg_blue {
+  background-color: var(--clr-dark-blue);
 }
-.text_light_yellow {
-  color: var(--clr-Light-yellow);
+
+.bg_light_yellow {
+  background-color: var(--clr-Light-yellow);
 }
 .text_light_gray {
   color: var(--clr-Light-grey);
 }
 .bg_black {
-  color: var(--clr-bg-black);
+  background-color: var(--clr-bg-black);
 }
-.bg_sky {
-  color: var(--clr-light-sky);
+.bg_Green {
+  background-color: var(--clr-light-Green);
+}
+.bg_pink {
+  background-color: var(--clr-Light-pink);
 }
 .bg_yellow {
-  color: var(--clr-bg-yellow);
+  background-color: var(--clr-bg-yellow);
+}
+.bg_light_blue {
+  background-color: var(--clr-bg-lightblue);
 }
 
 .btn_main {
@@ -105,7 +115,7 @@
   text-transform: capitalize;
   font-weight: 400;
   font-size: var(--fs-md);
-  font-family: "Futura Bk BT";
+  font-family: "Futura   BT";
 }
 .op01 {
   opacity: 0.1;
@@ -131,8 +141,17 @@
   opacity: 0.7;
 }
 
+.transition200 {
+  transition: all 200ms ease-in-out;
+}
+.transition250 {
+  transition: all 250ms ease-in-out;
+}
 .transition300 {
-  transition: all 300ms linear;
+  transition: all 300ms ease-in-out;
+}
+.transition350 {
+  transition: all 350ms ease-in-out;
 }
 .z_index-1 {
   z-index: -1;
@@ -169,4 +188,266 @@
 }
 .cursor_pointer {
   cursor: pointer;
+}
+.scrollBar-none::-webkit-scrollbar {
+  display: none;
+}
+/*  */
+.hover_box .content_box:hover {
+  background-color: var(--bg_hover);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.hover_box .content_box:hover span.svg svg path,
+.hover_box .content_box:hover span.svg svg circle {
+  fill: rgba(124, 124, 124, 0.909);
+  stroke: rgba(124, 124, 124, 0.909);
+}
+
+.hover_box .content_box:hover span.svg {
+  animation: Svg_move 2s linear 0s infinite alternate-reverse;
+}
+@keyframes Svg_move {
+  0% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.box_blockchain_pos1,
+.box_blockchain_pos2,
+.box_blockchain_pos3,
+.box_blockchain_pos4 {
+  background: rgba(252, 252, 252, 0.12);
+  -webkit-backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2.5px);
+  border-radius: 16px;
+  z-index: 3;
+}
+.box_blockchain_pos1 {
+  animation: BOxPos_Block1 6s linear 0s infinite alternate;
+  max-width: 282px;
+}
+.box_blockchain_pos2 {
+  left: 0;
+  bottom: 10%;
+  animation: BOxPos_Block2 6.3s linear 0s infinite alternate-reverse;
+  max-width: 282px;
+}
+.box_blockchain_pos3 {
+  right: -1%;
+  top: 30%;
+  animation: BOxPos_Block3 6s linear 0s infinite alternate-reverse;
+  max-width: 314px;
+}
+.box_blockchain_pos4 {
+  right: -1%;
+  bottom: 0;
+  animation: BOxPos_Block4 6s linear 0s infinite alternate-reverse;
+  max-width: 314px;
+}
+.ImgEarth {
+  width: 100%;
+}
+
+.BlockChainBox:hover .ImgEarth {
+  animation: ImgEarh 15s linear 0s infinite reverse;
+  position: relative;
+  z-index: 0;
+}
+@keyframes ImgEarh {
+  0% {
+    transform: rotate(0%);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 576px) {
+  @keyframes BOxPos_Block1 {
+    0% {
+      top: 2%;
+      left: -5%;
+    }
+    50% {
+      top: 25%;
+    }
+    100% {
+      top: 2%;
+      left: -5%;
+    }
+  }
+  @keyframes BOxPos_Block2 {
+    0% {
+      bottom: 10%;
+      left: -5%;
+    }
+    50% {
+      bottom: 25%;
+    }
+    100% {
+      bottom: 10%;
+      left: -5%;
+    }
+  }
+  @keyframes BOxPos_Block3 {
+    0% {
+      top: 25%;
+      right: -4%;
+    }
+    50% {
+      top: 0%;
+    }
+    100% {
+      top: 25%;
+      right: -4%;
+    }
+  }
+  @keyframes BOxPos_Block4 {
+    0% {
+      bottom: 25%;
+      right: -7%;
+    }
+    50% {
+      bottom: 10%;
+    }
+    100% {
+      bottom: 25%;
+      right: -7%;
+    }
+  }
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x4l: 18px;
+    --fs-2x8l: 28px;
+    --fs-4xl: 40px;
+    --fs-4x4l: 44px;
+    --fs-5x2l: 52px;
+  }
+  .box_blockchain_pos1 {
+    max-width: 250px;
+  }
+  .box_blockchain_pos2 {
+    left: 0;
+    max-width: 250px;
+  }
+  .box_blockchain_pos3 {
+    right: 0;
+    max-width: 280px;
+  }
+  .box_blockchain_pos4 {
+    right: 0;
+    max-width: 280px;
+  }
+}
+@media (min-width: 768px) {
+  .ImgEarth {
+    width: 512px;
+  }
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-4xl: 40px;
+    --fs-4x4l: 44px;
+    --fs-5x2l: 52px;
+  }
+  .box_blockchain_pos1 {
+    max-width: 282px;
+  }
+  .box_blockchain_pos2 {
+    max-width: 282px;
+  }
+  .box_blockchain_pos3 {
+    max-width: 314px;
+  }
+  .box_blockchain_pos4 {
+    max-width: 314px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-4xl: 40px;
+    --fs-4x4l: 44px;
+    --fs-5x2l: 52px;
+  }
+  @keyframes BOxPos_Block1 {
+    0% {
+      top: 2%;
+      left: 0;
+    }
+    50% {
+      top: 25%;
+    }
+    100% {
+      top: 2%;
+      left: 0;
+    }
+  }
+  @keyframes BOxPos_Block2 {
+    0% {
+      bottom: 10%;
+      left: 0;
+    }
+    50% {
+      bottom: 25%;
+    }
+    100% {
+      bottom: 10%;
+      left: 0;
+    }
+  }
+  @keyframes BOxPos_Block3 {
+    0% {
+      top: 25%;
+      right: -1%;
+    }
+    50% {
+      top: 0%;
+    }
+    100% {
+      top: 25%;
+      right: -1%;
+    }
+  }
+  @keyframes BOxPos_Block4 {
+    0% {
+      bottom: 25%;
+      right: -1%;
+    }
+    50% {
+      bottom: 10%;
+    }
+    100% {
+      bottom: 25%;
+      right: -1%;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-4xl: 40px;
+    --fs-4x4l: 44px;
+    --fs-5x2l: 52px;
+  }
+  .container {
+    max-width: 1140px !important;
+  }
 }
