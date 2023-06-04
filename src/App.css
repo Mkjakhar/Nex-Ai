@@ -160,7 +160,7 @@
   animation: FlowerPos1 5s ease-in-out 0s infinite alternate-reverse;
 }
 .Pos_FLower_Unique2 {
-  right: -20%;
+  right: -50%;
   bottom: -20%;
   width: 300px;
   animation: FlowerPos2 5s ease-in-out 0s infinite alternate-reverse;
@@ -186,7 +186,7 @@
   }
 }
 .Shinewave_img__BLockCahin {
-  height: 599px;
+  height: 300px;
   top: 0;
   left: 0;
   animation: Shinewave_img__BLockCahin 8s ease-in-out 0s infinite
@@ -208,6 +208,9 @@
     width: 400px;
     left: -30%;
   }
+  .Shinewave_img__BLockCahin {
+    height: 400px;
+  }
   .Pos_FLower_Unique2 {
     width: 400px;
     right: -30%;
@@ -228,6 +231,9 @@
   .Pos_FLower_Unique {
     left: -18%;
     width: 500px;
+  }
+  .Shinewave_img__BLockCahin {
+    height: 599px;
   }
   .Pos_FLower_Unique2 {
     right: -18%;
