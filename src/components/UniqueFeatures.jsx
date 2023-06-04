@@ -1,9 +1,16 @@
 import React from "react";
 import { Unique } from "../Pagejs/DataMap";
+import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
+
 function UniqueFeatures() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5 position-relative">
+        <img
+          className="Pos_FLower_Unique position-absolute "
+          src={Pos_FLower_Unique}
+          alt=""
+        />
         <div className=" container">
           <div className="py-lg-5">
             <h2 className=" heading_common text-center mb-5 pb-3 text_dark_black">
