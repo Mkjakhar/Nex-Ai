@@ -49,14 +49,14 @@ function BlockchainTechnology() {
               <div className="d-flex flex-column justify-content-center mb-4 gap-3 d-sm-none">
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos1  d-flex align-items-center  text-center d-sm-none px-md-4 px-3 py-3 mx-auto ">
+                  className="box_blockchain_pos1  d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-3 mx-auto ">
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                     Security and Privacy
                   </h3>
                 </div>
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos2  text-center d-sm-none px-md-4 px-3 py-4 mx-auto ">
+                  className="box_blockchain_pos2 d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-4 mx-auto ">
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                     Self-learning and Personalization
                   </h3>
@@ -68,14 +68,14 @@ function BlockchainTechnology() {
               <div className="d-flex flex-column justify-content-center gap-3 mt-4 d-sm-none">
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos3 d-sm-none   text-center mx-auto px-md-4 px-3 py-3 ">
+                  className="box_blockchain_pos3 d-sm-none d-flex align-items-center justify-content-center  text-center mx-auto px-md-4 px-3 py-3 ">
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                     Transparent and Reliable Data Management{" "}
                   </h3>
                 </div>
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos4 d-sm-none text-center mx-auto px-md-4 px-3 py-3 ">
+                  className="box_blockchain_pos4 d-sm-none d-flex align-items-center justify-content-center   text-center mx-auto px-md-4 px-3 py-3 ">
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                     Automated & Transparent Transactions{" "}
                   </h3>

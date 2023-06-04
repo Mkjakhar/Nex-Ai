@@ -1,7 +1,5 @@
 import React from "react";
-import headerImg from "../assets/img/webp/hero-img.webp";
-import WbpAi from "../assets/img/webp/Header_AI.webp";
-import Header from "./Header";
+import WbpAi from "../assets/GIf/Group 71.gif";
 
 function Hero() {
   return (
@@ -14,9 +12,9 @@ function Hero() {
         // }}
         id="hero"
         className="sec_bg_Gradient position-relative w-100 py-xl-0 pt-5  d-flex flex-column justify-content-center align-items-center">
-        <div className="bg_layr_blur position-absolute w-100 h-100 z_index2 top-0 start-0"></div>
+        <div className="sec_bg__Gif bg_layr_blur position-absolute w-100 h-100 z_index2 top-0 start-0 "></div>
 
-        <div className="container position-relative z_index3 py-5">
+        <div className="container position-relative z_index3 py-lg-5">
           <div className="row">
             <div className="col-xl-6 col-lg-7 col-md-10">
               <div className=" z_index1 position-relative">

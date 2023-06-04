@@ -3,9 +3,7 @@ import Shapr_flower from "../assets/img/svg/Shape__Flower.svg";
 function WeDoes() {
   return (
     <>
-      <section
-        style={{ minHeight: "608px" }}
-        className=" position-relative d-flex justify-content-center align-items-center">
+      <section className="min_h_wedose_custom position-relative d-flex justify-content-center align-items-center">
         <img
           className="Flower__Image position-absolute"
           src={Shapr_flower}

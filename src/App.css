@@ -106,18 +106,19 @@
 }
 
 .bg_layr_blur {
-  background-color: #121b2820;
-  -webkit-backdrop-filter: blur(1000px);
-  backdrop-filter: blur(1000px);
+  background-color: #121b2820 !important;
+  -webkit-backdrop-filter: blur(80px);
+  backdrop-filter: blur(80px);
 }
-#hero.sec_bg_Gradient {
-  background-image: url(../src/assets/img/webp/Header_AI.webp);
-  background-position: left;
+/* #hero.sec_bg_Gradient {
+  background-image: url(../src/assets//GIf/Group\ 71.gif);
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 .header_img {
   width: 100%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 #footer {
   background: rgba(11, 10, 10, 0.08);
@@ -128,24 +129,60 @@
 .Img_width_Light_Custom {
   width: 100%;
 }
-
+.hover_effact_link {
+  position: relative;
+}
+.hover_effact_link::before {
+  content: "";
+  right: 0;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--clr-dark-blue);
+  transition: all 300ms ease-in-out;
+  position: absolute;
+}
+.hover_effact_link:hover::before {
+  width: 100%;
+}
+.min_h_wedose_custom {
+  min-height: 450px;
+}
+.layer__BottomRIght {
+  background: #030c1a;
+  filter: blur(19.5px);
+  right: 0;
+  bottom: -50%;
+  height: 100px;
+  z-index: 12345;
+}
 @media (min-width: 575.9px) {
+  .min_h_wedose_custom {
+    min-height: 600px;
+  }
   .Img_width_Light_Custom {
     width: 75%;
   }
 }
 @media (min-width: 768.1px) {
+  .min_h_wedose_custom {
+    min-height: 608px;
+  }
 }
 @media (min-width: 991.9px) {
   .bg_layr_blur {
-    background-color: transparent;
+    background-color: unset !important;
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(0px);
   }
-  #hero.sec_bg_Gradient {
-    background-image: url(../src/assets/img/webp/Header_AI.webp);
-
-    background-position: right;
+  #hero .sec_bg__Gif {
+    background-image: url(../src/assets/GIf/Group\ 71.gif);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-position: top;
+    background-size: cover !important;
+    background-repeat: no-repeat;
     background-size: cover;
   }
   .header_img {
@@ -159,7 +196,7 @@
 }
 @media (min-width: 1199.9px) {
   .min_vh_100 {
-    min-height: 80vh;
+    min-height: 100vh;
   }
   .container {
     width: 1140px;

@@ -10,7 +10,8 @@ function Header(props) {
     document.body.style.overflow = "initial";
   }
   return (
-    <section id="header" className="w-100 nav_bg_gradient">
+    <section id="header" className="w-100 nav_bg_gradient position-relative">
+      <div className="layer__BottomRIght position-absolute "></div>
       <nav
         data-aos="fade-down"
         data-aos-offset="0"
@@ -42,7 +43,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   Marketplace
                 </Link>
               </li>
@@ -50,7 +51,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/About"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   About
                 </Link>
               </li>
@@ -58,7 +59,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   NexChat
                 </Link>
               </li>
@@ -66,7 +67,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Tokens"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   Tokens
                 </Link>
               </li>
@@ -87,33 +88,37 @@ function Header(props) {
               {" "}
               <li className="ms-lg-4">
                 <Link
+                  onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   Marketplace
                 </Link>
               </li>
               <li className="ms-lg-4">
                 <Link
+                  onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/About"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   About
                 </Link>
               </li>
               <li className="ms-lg-4">
                 <Link
+                  onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   NexChat
                 </Link>
               </li>
               <li className="ms-lg-4">
                 <Link
+                  onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/Tokens"
-                  className="ff_futura fw-normal fs_sm text_light_white text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
                   Tokens
                 </Link>
               </li>
