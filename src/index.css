@@ -6,25 +6,31 @@
   box-sizing: border-box;
   scroll-behavior: smooth !important;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 @font-face {
   font-family: "Futura Bk BT";
-  src: url(./assets/font/futura_bk_bt/FutuBk.ttf);
+  src: url(./assets/font/futura_bk_bt/Futura_20Medium_20BT.ttf);
+}
+.ff_inter {
+  font-family: "Inter", sans-serif !important;
 }
 .ff_futura {
   font-family: "Futura Bk BT";
 }
 :root {
-  --fs-sm: 16px;
-  --fs-md: 18px;
+  --fs-sm: 14px;
+  --fs-md: 14px;
   --fs-xl: 20px;
-  --fs-2x4l: 24px;
-  --fs-2x8l: 28px;
-  --fs-4xl: 40px;
-  --fs-4x4l: 44px;
-  --fs-5x2l: 52px;
+  --fs-2x4l: 20px;
+  --fs-2x8l: 24px;
+  --fs-4xl: 20px;
+  --fs-4x4l: 34px;
+  --fs-5x2l: 29px;
   /*  */
   --clr-light-white: #fcfcfc;
   --clr-dark-black: #0b0a0a;
+  --clr-dark-black-Acc: #0b0a0ada;
   --bg_hover: #0b0a0a0a;
   --clr-dark-blue: #1c2ac9;
   --clr-Light-pink: #fff7f7;
@@ -115,7 +121,7 @@
   text-transform: capitalize;
   font-weight: 400;
   font-size: var(--fs-md);
-  font-family: "Futura   BT";
+  font-family: "Futura Bk BT";
   transition: all 300ms ease-in-out;
 }
 .btn_main:hover {
@@ -177,7 +183,7 @@
   font-family: "Futura Bk BT";
   font-weight: 400;
   font-size: var(--fs-4x4l);
-  line-height: 150%;
+  /* line-height: 150%; */
   text-transform: capitalize;
 }
 .peragraph_common {
@@ -185,7 +191,7 @@
   font-weight: 400;
   font-size: var(--fs-md);
   line-height: 160%;
-  opacity: 0.7;
+  opacity: 0.7 !important;
 }
 
 .transition200 {
@@ -294,10 +300,16 @@
   animation: BOxPos_Block4 6s linear 0s infinite alternate-reverse;
   max-width: 314px;
 }
-.ImgEarth {
+.ImgEarth,
+.Flower__Image {
   width: 100%;
 }
 
+.Flower__Image {
+  animation: ImgEarh 15s linear 0s infinite reverse;
+  position: relative;
+  z-index: 0;
+}
 .BlockChainBox:hover .ImgEarth {
   animation: ImgEarh 15s linear 0s infinite reverse;
   position: relative;
@@ -311,6 +323,20 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*  */
+.box_custom_GetStartd:hover .bg__get_blur {
+  background-color: #0084ff37;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(10px);
+}
+.box_custom_GetStartd {
+  min-height: 567px;
+  background-image: url(./assets//img/webp/Get-Started--bg.webp);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 576px) {
@@ -393,7 +419,8 @@
   }
 }
 @media (min-width: 768px) {
-  .ImgEarth {
+  .ImgEarth,
+  .Flower__Image {
     width: 512px;
   }
   :root {
@@ -420,6 +447,14 @@
   }
 }
 @media (min-width: 992px) {
+  .box_custom_GetStartd {
+    min-height: 767px;
+    background-image: url(./assets//img/webp/Get-Started--bg.webp);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+
   :root {
     --fs-sm: 16px;
     --fs-md: 18px;
@@ -483,6 +518,13 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .box_custom_GetStartd:hover .bg__get_blur {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+  }
+}
 @media (min-width: 1440px) {
   :root {
     --fs-sm: 16px;
@@ -497,4 +539,41 @@
   .container {
     max-width: 1140px !important;
   }
+}
+#Accordian .Accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-color: transparent !important;
+  --bs-accordion-color: var(--clr-dark-black) !important;
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 0rem !important;
+  --bs-accordion-btn-color: var(--clr-bg-black) !important;
+  --bs-accordion-btn-bg: transparent !important;
+  --bs-accordion-btn-active-icon: url(./assets/img/svg/Active_arrow.svg) !important;
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(0deg) !important;
+  --bs-accordion-btn-icon-transition: all 0.4s ease-in-out !important;
+  --bs-accordion-btn-icon: url(./assets/img/svg/closwd_arrow.svg) !important;
+  --bs-accordion-btn-focus-border-color: #86b7fe;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-body-padding-x: 0rem;
+  --bs-accordion-body-padding-y: 0rem !important;
+  --bs-accordion-active-color: var(--clr-dark-blue);
+  --bs-accordion-active-bg: none !important;
+}
+.accordion-flush .accordion-item {
+  border-bottom: 0.8px solid #05050552 !important;
+}
+#Accordian .accordion_Header {
+  color: black !important;
+}
+#Accordian .accordion-button {
+  padding: 0px !important;
+}
+#Accordian .accordion-button::after {
+  flex-shrink: 0;
+  width: 45px !important;
+  height: 22px !important;
+  margin-left: auto;
+  position: absolute;
+  right: -25px;
 }

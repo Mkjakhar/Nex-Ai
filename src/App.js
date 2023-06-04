@@ -10,25 +10,30 @@ import Assistant from "./components/Assistant";
 import WeDoes from "./components/WeDoes";
 import Lights from "./components/Lights";
 import Footer from "./components/Footer";
+import TokanUtility from "./components/TokanUtility";
+import GetStarted from "./components/GetStarted";
 
 function App() {
   return (
     <>
       <div className=" overflow-hidden">
-        {/* <Hero /> */}
-        {/* <UniqueFeatures />
-        <BlockchainTechnology /> */}
         <div className=" min_vh_100 d-flex flex-column">
-          <Header />
+          <div className=" position-relative z_index8">
+            {" "}
+            <Header />
+          </div>
           <div className=" d-flex flex-grow-1 justify-content-center">
             <Hero />
           </div>
         </div>
-
-        {/* <Assistant />
+        <Assistant />
+        <UniqueFeatures />
+        <BlockchainTechnology />
         <WeDoes />
         <Lights />
-        <Footer /> */}
+        <TokanUtility />
+        <GetStarted />
+        <Footer />
       </div>
     </>
   );

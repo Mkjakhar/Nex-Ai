@@ -5,16 +5,16 @@ import assistant2 from "../assets/img/webp/assistant-2.webp";
 function Assistant() {
   return (
     <>
-      <section className="py-5 my-5">
+      <section className="py-5 my-lg-5">
         <div className="container">
-          <h2 className=" ff_futura fw-normal fs_4x4l text_dark_black text-center text-capitalize mb-0">
+          <h2 className=" heading_common text_dark_black text-center text-capitalize mb-0">
             Ai-Powered Home Assistant
           </h2>
-          <div className="row mt-5">
+          <div className="row mt-lg-5 mt-4">
             <div className="col-lg-6">
               <div>
                 <img className="w-100" src={assistant1} alt="img" />
-                <p className=" ff_futura fw-normal fs_xl text_dark_black mb-0 mt-3 pe-lg-5">
+                <p className=" peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai is an advanced AI-powered home assistant that brings
                     the future to your fingertips. With its ability to engage in
@@ -26,7 +26,7 @@ function Assistant() {
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div>
                 <img className="w-100" src={assistant2} alt="img" />
-                <p className=" ff_futura fw-normal fs_xl text_dark_black mb-0 mt-3 pe-lg-5">
+                <p className=" peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai offers an incredibly futuristic experience. It can
                     take the initiative to ask about your day, schedule

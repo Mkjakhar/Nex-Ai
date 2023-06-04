@@ -1,12 +1,19 @@
 import React from "react";
-
+import Shapr_flower from "../assets/img/svg/Shape__Flower.svg";
 function WeDoes() {
   return (
     <>
-      <section className="py-5">
+      <section
+        style={{ minHeight: "608px" }}
+        className=" position-relative d-flex justify-content-center align-items-center">
+        <img
+          className="Flower__Image position-absolute"
+          src={Shapr_flower}
+          alt=""
+        />
         <div className="container">
-          <div className="d-flex flex-column align-items-center">
-            <h2 className=" ff_futura fw-normal fs_4x4l text_dark_black text-center text-capitalize mb-0">
+          <div className="d-flex flex-column align-items-center justify-content-center ">
+            <h2 className=" heading_common text_dark_black text-center text-capitalize mb-0">
               NexAi does all this. And more.
             </h2>
             <p className=" ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2 pb-3">
