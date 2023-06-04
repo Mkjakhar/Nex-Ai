@@ -15,11 +15,11 @@ function Hero() {
         <div className="container position-relative z_index3 py-lg-5">
           <div className="row">
             <div className="col-xl-6 col-lg-7 col-md-10">
-              <div className=" z_index1 position-relative">
-                <h1 className=" ff_futura fw-normal fs_5x2l text_light_white text-capitalize mb-0">
+              <div className="z_index1 position-relative">
+                <h1 className="ff_futura fw-normal fs_5x2l text_light_white text-capitalize mb-0">
                   Nexai is an advanced AI-powered home assistant
                 </h1>
-                <p className=" ff_futura fw-normal fs_md text_light_white mb-0 py-3">
+                <p className="ff_futura fw-normal fs_md text_light_white mb-0 py-3">
                   Etiam viverra nec libero a. A id id tempus molestie sed.
                 </p>
                 <button className="btn_main border-0 ff_futura fw-normal mt-4">

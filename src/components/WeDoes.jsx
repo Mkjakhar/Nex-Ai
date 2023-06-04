@@ -11,16 +11,16 @@ function WeDoes() {
         />
         <div className="container">
           <div className="d-flex flex-column align-items-center justify-content-center ">
-            <h2 className=" heading_common text_dark_black text-center text-capitalize mb-0">
+            <h2 className="heading_common text_dark_black text-center text-capitalize mb-0">
               NexAi does all this. And more.
             </h2>
-            <p className=" ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2 pb-3">
+            <p className="ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2 pb-3">
               Nexai is an advanced home assistant that will revolutionize the
-              way we interact with our{" "}
+              way we interact with our
               <span className="d-lg-block">
                 smart devices at home. Powered by sophisticated artificial
                 intelligence, it leverages
-              </span>{" "}
+              </span>
               blockchain technology to offer a secure and efficient user
               experience.
             </p>

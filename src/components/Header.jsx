@@ -17,7 +17,8 @@ function Header(props) {
         data-aos-offset="0"
         data-aos-duration="1000"
         data-aos-delay="2500"
-        className="shadow_nav z_index2 position-relative">
+        className="shadow_nav z_index2 position-relative"
+      >
         <div className="container ">
           <div className="d-flex justify-content-between align-items-center py-1">
             <ul className="mb-0 p-0">
@@ -32,9 +33,11 @@ function Header(props) {
                   ? "threeline d-lg-none cursor_pointer "
                   : "threeline d-lg-none cursor_pointer "
               }
-              onClick={() => setNavShow(!navShow)}>
+              onClick={() => setNavShow(!navShow)}
+            >
               <div
-                className={navShow ? " falseline1" : "  threelinechild"}></div>
+                className={navShow ? " falseline1" : "  threelinechild"}
+              ></div>
               <div className={navShow ? "falseline" : " threelinechild"}></div>
               <div className={navShow ? "falseline3 " : "threelinechild"}></div>
             </div>
@@ -43,7 +46,8 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   Marketplace
                 </Link>
               </li>
@@ -51,7 +55,8 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/About"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   About
                 </Link>
               </li>
@@ -59,7 +64,8 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   NexChat
                 </Link>
               </li>
@@ -67,7 +73,8 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Tokens"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   Tokens
                 </Link>
               </li>
@@ -83,15 +90,16 @@ function Header(props) {
               navShow
                 ? "shownav d-flex flex-column justify-content-center align-items-center"
                 : "hidenav d-flex flex-column justify-content-center align-items-center"
-            }>
+            }
+          >
             <ul className="mb-0 p-0 d-flex gap-4 flex-column justify-content-center align-items-center">
-              {" "}
               <li className="ms-lg-4">
                 <Link
                   onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   Marketplace
                 </Link>
               </li>
@@ -100,7 +108,8 @@ function Header(props) {
                   onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/About"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   About
                 </Link>
               </li>
@@ -109,7 +118,8 @@ function Header(props) {
                   onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   NexChat
                 </Link>
               </li>
@@ -118,7 +128,8 @@ function Header(props) {
                   onClick={() => setNavShow(!navShow)}
                   style={{ letterSpacing: "0.23em" }}
                   to="/Tokens"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase">
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                >
                   Tokens
                 </Link>
               </li>
