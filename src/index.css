@@ -78,7 +78,7 @@
   color: var(--clr-ldark-black);
 }
 .text_dark_blue {
-  color: var(--clr-dark-blue);
+  color: var(--clr-dark-blue) !important;
 }
 .bg_blue {
   background-color: var(--clr-dark-blue);
@@ -338,7 +338,7 @@
   min-height: 567px;
   background-image: url(./assets//img/webp/Get-Started--bg.webp);
   background-size: cover;
-  background-position: left;
+  background-position: -412px;
   background-repeat: no-repeat;
 }
 
@@ -448,14 +448,15 @@
   .box_blockchain_pos4 {
     max-width: 314px;
   }
+  .box_custom_GetStartd {
+    background-position: right;
+  }
 }
 @media (min-width: 992px) {
   .box_custom_GetStartd {
     min-height: 767px;
     background-image: url(./assets//img/webp/Get-Started--bg.webp);
     background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
   }
 
   :root {

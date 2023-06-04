@@ -11,7 +11,12 @@ function UniqueFeatures() {
           src={Pos_FLower_Unique}
           alt=""
         />
-        <div className=" container">
+        <img
+          className="Pos_FLower_Unique2 position-absolute z_index4 "
+          src={Pos_FLower_Unique}
+          alt=""
+        />
+        <div className=" container position-relative z_index10">
           <div className="py-lg-5">
             <h2 className=" heading_common text-center mb-5 pb-3 text_dark_black">
               Unique features

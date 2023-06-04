@@ -1,12 +1,17 @@
 import React from "react";
 import Earth from "../assets/img/svg/BlockChain--Earth-Center.svg";
+import Shinewave_img__BLockCahin from "../assets/img/svg/Wave__Shine.svg";
 
 function BlockchainTechnology() {
   return (
     <>
       {" "}
-      <section className=" py-5 bg_blue BlockChainBox">
-        {" "}
+      <section className=" py-5 bg_blue BlockChainBox position-relative overflow-hidden">
+        <img
+          className="Shinewave_img__BLockCahin position-absolute"
+          src={Shinewave_img__BLockCahin}
+          alt=""
+        />
         <div className=" container">
           <div className="pt-lg-5">
             <h2 className=" heading_common text-center text_light_white">

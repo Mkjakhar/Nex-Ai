@@ -18,16 +18,16 @@ function Lights() {
       <section id="lights" style={{ background: "#FFE4C7" }} className="">
         {/* <div className="container"> */}
         <div className="row flex-column-reverse flex-lg-row align-items-center">
-          <div className="col-lg-7">
+          <div className="col-lg-6">
             <div className=" mt-4 mt-lg-0">
               <img className="Img_width_Light_Custom" src={girlImg} alt="img" />
             </div>
           </div>
-          <div className="col-lg-5 my-5 my-lg-0">
+          <div className="col-lg-6 my-5 my-lg-0 ">
             <Slider {...settings}>
               {Slider__Data.map((data) => {
                 return (
-                  <div className="mx-3">
+                  <div className="mx-sm-3 mx-1">
                     <div>
                       <img src={data.img_String} alt="vector" />
                       <h2 className=" ff_futura fw-normal fs_4x4l text_dark_black text-capitalize mb-0 mt-4 pt-1">
