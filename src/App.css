@@ -110,12 +110,7 @@
   -webkit-backdrop-filter: blur(80px);
   backdrop-filter: blur(80px);
 }
-/* #hero.sec_bg_Gradient {
-  background-image: url(../src/assets//GIf/Group\ 71.gif);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+
 .header_img {
   width: 100%;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -159,10 +154,26 @@
   z-index: 12345;
 }
 .Pos_FLower_Unique {
-  left: -20%;
+  left: -50%;
   top: -20%;
-  width: 500px;
+  width: 300px;
   animation: FlowerPos1 5s ease-in-out 0s infinite alternate-reverse;
+}
+.Pos_FLower_Unique2 {
+  right: -20%;
+  bottom: -20%;
+  width: 300px;
+  animation: FlowerPos2 5s ease-in-out 0s infinite alternate-reverse;
+}
+@keyframes FlowerPos2 {
+  0% {
+    transform: rotate(0);
+    bottom: -20%;
+  }
+  100% {
+    transform: rotate(360deg);
+    bottom: 20%;
+  }
 }
 @keyframes FlowerPos1 {
   0% {
@@ -174,7 +185,33 @@
     top: 20%;
   }
 }
+.Shinewave_img__BLockCahin {
+  height: 599px;
+  top: 0;
+  left: 0;
+  animation: Shinewave_img__BLockCahin 8s ease-in-out 0s infinite
+    alternate-reverse;
+}
+@keyframes Shinewave_img__BLockCahin {
+  0% {
+    top: -20%;
+    left: -30%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
 @media (min-width: 575.9px) {
+  .Pos_FLower_Unique {
+    width: 400px;
+    left: -30%;
+  }
+  .Pos_FLower_Unique2 {
+    width: 400px;
+    right: -30%;
+  }
   .min_h_wedose_custom {
     min-height: 600px;
   }
@@ -188,6 +225,14 @@
   }
 }
 @media (min-width: 991.9px) {
+  .Pos_FLower_Unique {
+    left: -18%;
+    width: 500px;
+  }
+  .Pos_FLower_Unique2 {
+    right: -18%;
+    width: 500px;
+  }
   .bg_layr_blur {
     background-color: unset !important;
     -webkit-backdrop-filter: blur(0px);
@@ -211,6 +256,9 @@
   }
 }
 @media (min-width: 1199.9px) {
+  .Img_width_Light_Custom {
+    width: 100%;
+  }
   .min_vh_100 {
     min-height: 100vh;
   }

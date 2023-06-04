@@ -16,9 +16,13 @@ function Assistant() {
                 <img className="w-100" src={assistant1} alt="img" />
                 <p className=" peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
-                    Nexai is an advanced AI-powered home assistant that brings
-                    the future to your fingertips. With its ability to engage in
-                    natural, fluent conversations in over 15 languages,
+                    Nexai is an advanced{" "}
+                    <span className=" text_dark_blue cursor_pointer">
+                      AI-powered
+                    </span>{" "}
+                    home assistant that brings the future to your fingertips.
+                    With its ability to engage in natural, fluent conversations
+                    in over 15 languages,
                   </em>
                 </p>
               </div>
@@ -28,8 +32,11 @@ function Assistant() {
                 <img className="w-100" src={assistant2} alt="img" />
                 <p className=" peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
-                    Nexai offers an incredibly futuristic experience. It can
-                    take the initiative to ask about your day, schedule
+                    Nexai offers an incredibly{" "}
+                    <span className=" text_dark_blue cursor_pointer">
+                      futuristic experience
+                    </span>{" "}
+                    . It can take the initiative to ask about your day, schedule
                     meetings, provide timely reminders assist with cooking by
                     suggesting ingredients, track your fitness and nutrition
                     goals, and even handle bill payments.
