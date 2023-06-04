@@ -116,6 +116,53 @@
   font-weight: 400;
   font-size: var(--fs-md);
   font-family: "Futura   BT";
+  transition: all 300ms ease-in-out;
+}
+.btn_main:hover {
+  transform: scale(1.08);
+  animation: Btn_MainBg 3s ease-in-out 0s infinite alternate;
+}
+@keyframes Btn_MainBg {
+  0% {
+    background: linear-gradient(
+      97.08deg,
+      #002eff 0%,
+      #0085ff 49.24%,
+      #000aff 95.5%
+    );
+  }
+  20% {
+    background: linear-gradient(
+      180.08deg,
+      #002eff 0%,
+      #0085ff 49.24%,
+      #000aff 95.5%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      230.08deg,
+      #002eff 0%,
+      #0085ff 49.24%,
+      #000aff 95.5%
+    );
+  }
+  70% {
+    background: linear-gradient(
+      360.08deg,
+      #002eff 0%,
+      #0085ff 49.24%,
+      #000aff 95.5%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      90.08deg,
+      #002eff 0%,
+      #0085ff 49.24%,
+      #000aff 95.5%
+    );
+  }
 }
 .op01 {
   opacity: 0.1;

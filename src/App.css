@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+.cursor_pointer {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.threeline {
+  width: 30px;
+  z-index: 12415;
+  position: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.threelinechild {
+  overflow: hidden;
+  width: 100%;
+  height: 0.2px;
+  margin: 4px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 4px;
+}
+.w_250 {
+  width: 250px;
+}
+.falseline1 {
+  width: 100%;
+  height: 2px;
+  background: #ffffff !important;
+  transition: all 0.4s ease-in-out;
+  border-radius: 50px;
+  transform: rotate(45deg) translate(6%, 15%);
 }
 
-.App-link {
-  color: #61dafb;
+.falseline3 {
+  width: 100%;
+  height: 2px;
+  background: #ffffff !important;
+  transition: all 0.4s ease-in-out;
+  border-radius: 50px;
+  transform: rotate(-45deg) translate(0, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.shownav {
+  position: fixed;
+  width: 100%;
+  height: 100vh !important;
+  background: #121b2859 !important;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  left: 0 !important;
+  top: 0;
+  z-index: 999 !important;
+  overflow: scroll;
+  transition: all 0.4s ease-in-out;
+}
+
+.hidenav {
+  position: absolute;
+  width: 100vw;
+  height: 100vh !important;
+  background: #121b2859 !important;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  left: -100%;
+  top: 0;
+  transition: all 0.4s ease-in-out;
+  z-index: 999 !important;
+}
+#header nav {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nav_bg_gradient {
+  background: #121b28;
+}
+#lights .slick-dots {
+  position: absolute;
+  bottom: -48px;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 16px !important;
+  margin: 0;
+  list-style: none;
+  text-align: start !important;
+}
+#lights .slick-dots li.slick-active button:before {
+  opacity: 0.5 !important;
+  background-color: var(--clr-bg-black) !important;
+}
+#lights .slick-dots li button:before {
+  line-height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 14px !important;
+  height: 14px !important;
+  content: "";
+  text-align: start !important;
+  opacity: 0.1 !important;
+  background-color: var(--clr-bg-black);
+}
+
+.bg_layr_blur {
+  background-color: #121b2820;
+  -webkit-backdrop-filter: blur(1000px);
+  backdrop-filter: blur(1000px);
+}
+#hero.sec_bg_Gradient {
+  background-image: url(../src/assets/img/webp/Header_AI.webp);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header_img {
+  width: 100%;
+}
+#footer {
+  background: rgba(11, 10, 10, 0.08);
+}
+#footer a:hover svg path {
+  fill: #0085ff;
+}
+.Img_width_Light_Custom {
+  width: 100%;
+}
+
+@media (min-width: 575.9px) {
+  .Img_width_Light_Custom {
+    width: 75%;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width: 768.1px) {
+}
+@media (min-width: 991.9px) {
+  .bg_layr_blur {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
   }
+  #hero.sec_bg_Gradient {
+    background-image: url(../src/assets/img/webp/Header_AI.webp);
+
+    background-position: right;
+    background-size: cover;
+  }
+  .header_img {
+    position: absolute;
+    width: 1132px;
+    height: 700px;
+    bottom: 2%;
+    z-index: -1;
+    right: 0%;
+  }
+}
+@media (min-width: 1199.9px) {
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1439.9px) {
 }

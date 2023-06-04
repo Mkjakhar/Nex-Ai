@@ -1,3 +1,5 @@
+import string from "../assets/img/svg/stting.svg";
+
 export const Unique = [
   {
     svg_Img: (
@@ -103,5 +105,33 @@ export const Unique = [
     PeraGraph:
       "Nexai utilizes the hardware sensors placed throughout your home to understand your location and deliver relevant information or actions. For instance, if you're in the bedroom and there's a smart TV present, Nexai will automatically display on the TV screen. ",
     Bg_Class: "bg_light_blue",
+  },
+];
+
+export const Slider__Data = [
+  {
+    img_String: string,
+    heading: " NexAi, Turn on the",
+    headingCracked: "lights.",
+  },
+  {
+    img_String: string,
+    heading: " NexAi, Turn on the",
+    headingCracked: "lights.",
+  },
+  {
+    img_String: string,
+    heading: " NexAi, Turn on the",
+    headingCracked: "lights.",
+  },
+  {
+    img_String: string,
+    heading: " NexAi, Turn on the",
+    headingCracked: "lights.",
+  },
+  {
+    img_String: string,
+    heading: " NexAi, Turn on the",
+    headingCracked: "lights.",
   },
 ];
