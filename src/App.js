@@ -1,6 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
+import "./hero.css";
 import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./components/Hero";

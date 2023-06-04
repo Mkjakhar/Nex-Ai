@@ -1,19 +1,17 @@
 import React from "react";
-import WbpAi from "../assets/GIf/Group 71.gif";
-
+import heroGif from "../assets/GIf/hero-gif.gif";
 function Hero() {
   return (
     <>
       <section
-        // style={{
-        //   backgroundSize: "cover",
-        //   backgroundPosition: "right",
-        //   backgroundRepeat: "no-repeat",
-        // }}
         id="hero"
-        className="sec_bg_Gradient position-relative w-100 py-xl-0 pt-5  d-flex flex-column justify-content-center align-items-center">
-        <div className="sec_bg__Gif bg_layr_blur position-absolute w-100 h-100 z_index2 top-0 start-0 "></div>
-
+        className="nav_bg_gradient position-relative w-100 py-xl-0 py-5  d-flex flex-column justify-content-center align-items-center"
+      >
+        <span className="hero_gradient"></span>
+        <span className="hero_layer"></span>
+        <span className="hero_upper_layer"></span>
+        <span className="hero_circle_layer"></span>
+        <img className="hero_gif_position" src={heroGif} alt="heroGif" />
         <div className="container position-relative z_index3 py-lg-5">
           <div className="row">
             <div className="col-xl-6 col-lg-7 col-md-10">
@@ -29,11 +27,6 @@ function Hero() {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="w-100  mt-5 mt-lg-0 d-lg-none position-relative z_index3">
-          <div>
-            <img className=" header_img" src={WbpAi} alt="img" />
           </div>
         </div>
       </section>

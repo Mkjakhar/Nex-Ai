@@ -193,14 +193,6 @@
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(0px);
   }
-  #hero .sec_bg__Gif {
-    background-image: url(../src/assets/GIf/Group\ 71.gif);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    background-position: top;
-    background-size: cover !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   .header_img {
     position: absolute;
     width: 1132px;

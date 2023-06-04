@@ -1,0 +1,60 @@
+.hero_gif_position {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+.hero_layer {
+  background: #79a4e3;
+  z-index: 1;
+  mix-blend-mode: overlay;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+.hero_gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 60%;
+  background: linear-gradient(
+    270deg,
+    #020b1a 50.06%,
+    rgba(2, 11, 26, 0) 97.25%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.hero_upper_layer {
+  width: 70%;
+  background: #030c1a;
+  filter: blur(19.5px);
+  position: absolute;
+  top: 0;
+  height: 75px;
+  z-index: 2;
+  right: 0;
+}
+.hero_circle_layer {
+  width: 190px;
+  height: 109px;
+  background: #030c1a;
+  filter: blur(20.5px);
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+  right: 58%;
+  border-radius: 100%;
+}
+@media (min-width: 768px) {
+  .hero_gif_position {
+    width: 75%;
+  }
+}
