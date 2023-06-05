@@ -269,6 +269,12 @@
 .opacity_07 {
   opacity: 0.7;
 }
+.assistent_cards img {
+  transition: linear 250ms;
+}
+.assistent_cards:hover img {
+  scale: 1.1;
+}
 @media (min-width: 768.1px) {
   .min_h_wedose_custom {
     min-height: 708px;
