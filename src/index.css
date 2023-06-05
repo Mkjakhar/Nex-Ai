@@ -281,31 +281,37 @@
   z-index: 3;
 }
 .box_blockchain_pos1 {
-  animation: BOxPos_Block1 10s linear 0s infinite alternate;
+  /* animation: BOxPos_Block1 10s linear 0s infinite alternate; */
   width: 100%;
   text-align: center;
 }
 .box_blockchain_pos2 {
   left: 0;
   bottom: 10%;
-  animation: BOxPos_Block2 10s linear 0s infinite alternate-reverse;
+  /* animation: BOxPos_Block2 10s linear 0s infinite alternate-reverse; */
   width: 100%;
 }
 .box_blockchain_pos3 {
   right: -1%;
   top: 30%;
-  animation: BOxPos_Block3 10s linear 0s infinite alternate-reverse;
+  /* animation: BOxPos_Block3 10s linear 0s infinite alternate-reverse; */
   width: 100%;
 }
 .box_blockchain_pos4 {
   right: -1%;
   bottom: 0;
-  animation: BOxPos_Block4 10s linear 0s infinite alternate-reverse;
+  /* animation: BOxPos_Block4 10s linear 0s infinite alternate-reverse; */
   width: 100%;
+}
+
+.ImgEarth{
+  left: 50%;
+  transform: translateX(-50%);
 }
 .ImgEarth,
 .Flower__Image {
-  width: 100%;
+  width: 500px !important;
+  height: 500px !important;
 }
 
 .Flower__Image {

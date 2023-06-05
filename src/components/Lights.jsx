@@ -6,7 +6,7 @@ import { Slider__Data } from "../Pagejs/DataMap";
 
 function Lights() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -31,15 +31,18 @@ function Lights() {
             <Slider {...settings}>
               {Slider__Data.map((data) => {
                 return (
-                  <div className="mx-sm-3 mx-1">
-                    <div>
-                      <img src={data.img_String} alt="vector" />
+ 
+                    <div className="w-50">
+                      {/* <img src={data.img_String} alt="vector" /> */}
                       <h2 className="ff_futura fw-normal fs_4x4l text_dark_black text-capitalize mb-0 mt-4 pt-1">
                         {data.heading}
-                        <span className="d-block">{data.headingCracked} </span>
+                        
                       </h2>
+                      <p>
+                        {data.paragraph}
+                      </p>
                     </div>
-                  </div>
+                  
                 );
               })}
             </Slider>

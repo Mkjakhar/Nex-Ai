@@ -115,28 +115,108 @@ export const Unique = [
 export const Slider__Data = [
   {
     img_String: string,
-    heading: " NexAi, Turn on the",
-    headingCracked: "lights.",
+    heading: " Personal Assistant for the Elderly.", 
+    paragraph:"Nex can specialize in assisting elderly individuals by providing medication reminders, helping with daily tasks such as ordering food, and reminding them of important activities."
   },
   {
     img_String: string,
-    heading: " NexAi, Open the",
-    headingCracked: "door.",
+    heading: " Smart Home Chef",
+    paragraph: "Nex can act as an expert chef in your kitchen by providing recipe suggestions, customizing meals according to dietary preferences, and assisting with real-time cooking techniques and instructions.",
   },
   {
     img_String: string,
-    heading: " NexAi, Trun of",
-    headingCracked: "AC.",
+    heading: "Personalized Stress Management",
+    paragraph: "Nex can analyze your stress levels by monitoring your biometric data and offer customized relaxation exercises, mindfulness practices, and stress management tips.",
   },
   {
     img_String: string,
-    heading: " NexAi, Measure this",
-    headingCracked: "table.",
+    heading: " Home Financial Advisor",
+    paragraph: "Nex can help you manage your finances by monitoring your expenses, providing budget suggestions, offering investment advice, and reminding you of bills and payments.",
   },
   {
     img_String: string,
-    heading: " NexAi, Turn on",
-    headingCracked: "music.",
+    heading: " Cybersecurity Guardian",
+    paragraph: "Nex can monitor your digital footprint, detect potential security threats, and provide recommendations to enhance your online privacy and protect against cyberattacks.",
+  },
+  {
+    img_String: string,
+    heading: " Environmentally Conscious Resource Optimization",
+    paragraph: "Nex can monitor and optimize the usage of water, electricity, and other resources in your home by providing suggestions on how to reduce your ecological footprint and save money simultaneously.",
+  },
+  {
+    img_String: string,
+    heading: " Personal Travel Assistant",
+    paragraph: "Nex can plan and book trips based on your preferences, monitor flight times, and provide updates on traffic conditions and travel advisories to ensure smooth and stress-free travels.    ",
+  },
+  {
+    img_String: string,
+    heading: " Digital Gardener",
+    paragraph: "Nex can be your virtual gardener by offering gardening advice, sending reminders for watering and fertilizing, and even identifying plant pests or diseases to help you maintain a lush and healthy garden. ",
+  },
+  {
+    img_String: string,
+    heading: "Home Workout Coach",
+    paragraph: "Nex can function as your personal trainer by offering customized workout programs, providing exercise instructions, and delivering motivating feedback to help you achieve your fitness goals.  ",
+  },
+  {
+    img_String: string,
+    heading: "Virtual Language Assistant",
+    paragraph: "Nex can be your language mentor and help you learn and improve language skills by offering interactive language exercises, correcting pronunciation, and providing translation services.   ",
+  },
+  {
+    img_String: string,
+    heading: "Digital Music Teacher",
+    paragraph: "Nex can act as a music teacher by offering lessons, providing feedback on musical performances, and even creating original musical compositions based on your taste and preferences.    ",
+  },
+  {
+    img_String: string,
+    heading: "Health Monitoring for Children",
+    paragraph: "Nex can monitor children's health and well-being by tracking sleep patterns, offering advice on nutritious diets, and providing educational games and activities to promote their physical and mental development.    ",
+  },
+  {
+    img_String: string,
+    heading: "E-commerce Assistant",
+    paragraph: "Nex can assist you with online shopping by providing product recommendations, searching for the best prices, comparing products, and even managing payments and delivery tracking.    ",
+  },
+  {
+    img_String: string,
+    heading: "Home Energy Efficiency Advisor",
+    paragraph: "Nex can analyze your energy consumption patterns and provide suggestions on how to optimize energy usage in your home to save money and reduce environmental impact. ",
+  },
+  {
+    img_String: string,
+    heading: "Virtual Event Planner",
+    paragraph: "Nex can help you plan and organize events by suggesting suitable venues, managing invitations and RSVPs, and even offering ideas and inspiration for themes and decorations. ",
+  },
+  {
+    img_String: string,
+    heading: "Digital Health and Wellness Coach",
+    paragraph: "Nex can support your well-being by offering mindfulness and meditation sessions, providing health advice, and offering tools and resources to manage stress and improve your mental health ",
+  },
+  {
+    img_String: string,
+    heading: "Independence Support for Persons with Disabilities",
+    paragraph: "Nex can be a reliable partner for individuals with disabilities by providing assistance with daily activities, medication reminders, and offering customized communication and interaction",
+  },
+  {
+    img_String: string,
+    heading: "Virtual Tutor",
+    paragraph: "Nex can offer one-on-one tutoring sessions in various subjects, provide explanations, and help with homework and assignments.    ",
+  },
+  {
+    img_String: string,
+    heading: "Crypto/Stock Trading",
+    paragraph: "Nex can provide real-time market data, analysis, and trading signals to assist traders in making informed decisions and executing trades in the cryptocurrency and stock markets.",
+  },
+  {
+    img_String: string,
+    heading: "IT Programming/Coding",
+    paragraph: "Nex can serve as a coding companion by offering code suggestions, providing documentation references, and assisting with debugging and troubleshooting code issues, enabling programmers to write more efficient and error-free code.     ",
+  },
+  {
+    img_String: string,
+    heading: "Virtual Business Mentor",
+    paragraph: "Nex can serve as a mentor for entrepreneurs and business owners by providing advice on business strategy, marketing techniques, and growth opportunities based on the analysis of market data and trends.",
   },
 ];
 export const accordian = [

@@ -1,16 +1,74 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Earth from "../assets/img/svg/BlockChain--Earth-Center.svg";
 import Shinewave_img__BLockCahin from "../assets/img/svg/Wave__Shine.svg";
+import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import * as THREE from "three";
+import earthTexture from "../assets/img/png/globe.jpg"; // Import the Earth texture image
+extend({ OrbitControls });
+function Globe() {
+  const globeRef = useRef();
+  useFrame(() => {
+    const globe = globeRef.current;
+    if (globe) {
+      globe.rotation.y += 0.005; // Rotate the globe slowly
+    }
+  });
+
+
+
+  return (
+    <mesh ref={globeRef}>
+      <sphereBufferGeometry args={[1.5, 64, 64]} />
+      <meshStandardMaterial
+        map={new THREE.TextureLoader().load(earthTexture)}
+      />
+    </mesh>
+  );
+}
+
+function Controls() {
+  const { camera, gl } = useThree();
+  const controlsRef = useRef();
+
+  useEffect(() => {
+    const controls = controlsRef.current;
+    controls.enableZoom = false; // Disable default zoom behavior
+    controls.addEventListener("wheel", handleWheel); // Add scroll event listener
+    return () => {
+      controls.removeEventListener("wheel", handleWheel); // Clean up event listener on unmount
+    };
+  }, []);
+
+  const handleWheel = (event) => {
+    const controls = controlsRef.current;
+    const deltaY = event.deltaY;
+    const zoomSpeed = 0.1;
+    controls.zoomSpeed = zoomSpeed;
+    controls.zoom += deltaY * controls.zoomSpeed;
+    controls.update();
+  };
+
+  useFrame(() => {
+    controlsRef.current.update();
+  });
+
+  return <orbitControls ref={controlsRef} args={[camera, gl.domElement]} />;
+}
+
 
 function BlockchainTechnology() {
   return (
     <>
-      <section className="py-5 bg_blue BlockChainBox position-relative overflow-hidden">
+   
+      <section className="py-5 bg_blue  position-relative overflow-hidden">
         <img
           className="Shinewave_img__BLockCahin position-absolute z_index1"
           src={Shinewave_img__BLockCahin}
           alt=""
         />
+
+
         <div className="container position-relative z_index3">
           <div className="pt-lg-5">
             <h2 className="heading_common text-center text_light_white">
@@ -65,9 +123,19 @@ function BlockchainTechnology() {
                   </h3>
                 </div>
               </div>
-              <div className="d-flex  justify-content-center">
-                <img className="ImgEarth " src={Earth} alt="" />
-              </div>
+              {/* <div className="d-flex  justify-content-center">
+                <img className=" " src={Earth} alt="" />
+              </div> */}
+              <Canvas
+      className="ImgEarth "
+      style={{ height: "100vh" }}
+      camera={{ position: [0, 0, 3] }}
+    >
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+      <Globe />
+      <Controls />
+    </Canvas>
               <div className="d-flex flex-column justify-content-center gap-3 mt-4 d-sm-none">
                 <div
                   style={{ minHeight: "90px" }}
