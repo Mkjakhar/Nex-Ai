@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Futura Bk BT";
-  src: url(./assets/font/futura_bk_bt/Futura_20Medium_20BT.ttf);
+  src: url("./assets/font/futura_bk_bt/FutuBk.ttf");
 }
 .ff_inter {
   font-family: "Inter", sans-serif !important;
