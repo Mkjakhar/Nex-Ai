@@ -35,7 +35,7 @@ function UniqueFeatures() {
           "-=1"
         )
         .fromTo(
-          ".rightReveal",
+          ".textReveal span",
           {
             overflow: "hidden",
             x: "100%",
@@ -67,8 +67,22 @@ function UniqueFeatures() {
         />
         <div className="container position-relative z_index10 mb-xl-4">
           <div className="py-lg-5">
-            <h2 className="heading_common text-center mb-5 pb-3 text_dark_black">
-              Unique features
+            <h2 className="textReveal heading_common text-center mb-5 pb-3 text_dark_black text-none">
+               
+              <span>U</span>
+              <span>n</span>
+              <span>i</span>
+              <span>q</span>
+              <span>u</span>
+              <span>e </span>
+              <span>f</span>
+              <span>e</span>
+              <span>a</span>
+              <span>t</span>
+              <span>u</span>
+              <span>r</span>
+              <span>e</span>
+              <span>s</span>
             </h2>
             <div
               style={{ maxHeight: "660px" }}

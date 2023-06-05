@@ -14,7 +14,7 @@ function Lights() {
     pauseOnHover: false,
     autoplaySpeed: 3000,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     fade: "fade",
   };
   return (

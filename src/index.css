@@ -186,7 +186,8 @@
   font-weight: 400;
   font-size: var(--fs-4x4l);
   /* line-height: 150%; */
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+
 }
 .peragraph_common {
   font-family: "Futura Bk BT";
@@ -287,7 +288,7 @@
 }
 .box_blockchain_pos2 {
   left: 0;
-  bottom: 10%;
+  bottom: 20%;
   /* animation: BOxPos_Block2 10s linear 0s infinite alternate-reverse; */
   width: 100%;
 }
