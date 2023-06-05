@@ -9,7 +9,7 @@ function WeDoes() {
           src={Shapr_flower}
           alt=""
         />
-        <div className="container">
+        <div className="container position-relative z_index3">
           <div className="d-flex flex-column align-items-center justify-content-center ">
             <h2 className="heading_common text_dark_black text-center text-capitalize mb-0">
               NexAi does all this. And more.

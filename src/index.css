@@ -343,6 +343,9 @@
 }
 
 @media (min-width: 576px) {
+  .box_custom_GetStartd {
+    background-position: -340px;
+  }
   @keyframes BOxPos_Block1 {
     0% {
       top: 2%;
@@ -443,10 +446,10 @@
     max-width: 282px;
   }
   .box_blockchain_pos3 {
-    max-width: 314px;
+    max-width: 320px;
   }
   .box_blockchain_pos4 {
-    max-width: 314px;
+    max-width: 320px;
   }
   .box_custom_GetStartd {
     background-position: right;
@@ -498,27 +501,27 @@
   @keyframes BOxPos_Block3 {
     0% {
       top: 25%;
-      right: -1%;
+      right: -1.5%;
     }
     50% {
       top: 0%;
     }
     100% {
       top: 25%;
-      right: -1%;
+      right: -1.5%;
     }
   }
   @keyframes BOxPos_Block4 {
     0% {
       bottom: 25%;
-      right: -1%;
+      right: -1.5%;
     }
     50% {
       bottom: 10%;
     }
     100% {
       bottom: 25%;
-      right: -1%;
+      right: -1.5%;
     }
   }
 }

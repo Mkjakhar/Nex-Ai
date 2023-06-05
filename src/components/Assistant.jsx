@@ -6,7 +6,7 @@ function Assistant() {
   return (
     <>
       <section className="py-5 my-lg-5">
-        <div className="container">
+        <div className="container position-relative z_index10">
           <h2 className="heading_common text_dark_black text-center text-capitalize mb-0">
             Ai-Powered Home Assistant
           </h2>
@@ -17,7 +17,10 @@ function Assistant() {
                 <p className="peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai is an advanced
-                    <span className="text_dark_blue cursor_pointer"> AI-powered </span>
+                    <span className="text_dark_blue cursor_pointer">
+                      {" "}
+                      AI-powered{" "}
+                    </span>
                     home assistant that brings the future to your fingertips.
                     With its ability to engage in natural, fluent conversations
                     in over 15 languages,
@@ -31,7 +34,10 @@ function Assistant() {
                 <p className="peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai offers an incredibly
-                    <span className="text_dark_blue cursor_pointer"> futuristic experience </span>
+                    <span className="text_dark_blue cursor_pointer">
+                      {" "}
+                      futuristic experience{" "}
+                    </span>
                     . It can take the initiative to ask about your day, schedule
                     meetings, provide timely reminders assist with cooking by
                     suggesting ingredients, track your fitness and nutrition
