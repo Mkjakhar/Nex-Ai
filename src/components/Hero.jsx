@@ -93,7 +93,7 @@ function Hero() {
                 <p className="ff_futura fw-normal fs_md text_light_white mb-0 py-3 ">
                   Etiam viverra nec libero a. A id id tempus molestie sed.
                 </p>
-                <button className="btn_main border-0 ff_futura fw-normal mt-4">
+                <button className="btn_main border-0 ff_futura fw-semibold mt-4">
                   get started
                 </button>
               </div>

@@ -80,7 +80,7 @@ function Header(props) {
               </li>
             </ul>
             <ul className="d-flex gap-1 mb-0 p-0 mb-0 d-none d-lg-flex">
-              <button className="btn_main border-0 ff_futura fw-normal ">
+              <button className="btn_main border-0 ff_futura fw-semibold">
                 get started
               </button>
             </ul>

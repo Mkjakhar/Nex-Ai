@@ -275,12 +275,63 @@
 .assistent_cards:hover img {
   scale: 1.1;
 }
+.algorithum_cards {
+  background: rgba(252, 252, 252, 0.08);
+  padding: 24px 16px;
+  transition: linear 250ms;
+}
+.algorithum_cards img {
+  transition: linear 250ms;
+}
+.algorithum_cards:hover {
+  box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.3);
+}
+.algorithum_cards:hover img {
+  transform: translateY(-8px);
+}
+.algo_slider .slick-track {
+  display: flex !important;
+}
+.algo_slider .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.algo_slider .slick-slide > div {
+  display: flex;
+}
+.aglo_arrows span:first-child {
+  rotate: 180deg;
+}
+.aglo_arrows span {
+  opacity: 0.3;
+  width: 22px;
+  transition: linear 200ms;
+}
+.aglo_arrows span:hover {
+  opacity: 1;
+}
 @media (min-width: 768.1px) {
   .min_h_wedose_custom {
     min-height: 708px;
   }
   .hero_gif_position {
     width: 75%;
+  }
+  .algorithum_cards {
+    background: rgba(252, 252, 252, 0.08);
+    padding: 40px 50px;
+  }
+  .aglo_arrows span:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    left: 4%;
+  }
+  .aglo_arrows span:last-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4%;
   }
 }
 @media (min-width: 991.9px) {

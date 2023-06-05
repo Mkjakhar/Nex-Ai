@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Futura Bk BT";
-  src: url("./assets/font/futura_bk_bt/FutuBk.ttf");
+  src: url("./assets/font/futura_bk_bt/FutuBk.9cafd5190d757542b609.ttf");
 }
 .ff_inter {
   font-family: "Inter", sans-serif !important;
@@ -118,7 +118,7 @@
   color: #ffffff;
   letter-spacing: 0.01em;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 600;
   font-size: var(--fs-md);
   font-family: "Futura Bk BT";
   transition: all 300ms ease-in-out;
@@ -304,7 +304,7 @@
   width: 100%;
 }
 
-.ImgEarth{
+.ImgEarth {
   left: 50%;
   transform: translateX(-50%);
 }

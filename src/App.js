@@ -12,6 +12,7 @@ import Lights from "./components/Lights";
 import Footer from "./components/Footer";
 import TokanUtility from "./components/TokanUtility";
 import GetStarted from "./components/GetStarted";
+import Algorithum from "./components/Algorithum";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <WeDoes />
         <Lights />
         <TokanUtility />
+        <Algorithum />
         <GetStarted />
         <Footer />
       </div>

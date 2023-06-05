@@ -7,7 +7,7 @@ function WeDoes() {
         <img
           className="Flower__Image position-absolute mb-xxl-5"
           src={Shapr_flower}
-          alt=""
+          alt="Shapr_flower"
         />
         <div className="container position-relative z_index3">
           <div className="d-flex flex-column align-items-center justify-content-center ">
@@ -24,7 +24,7 @@ function WeDoes() {
               blockchain technology to offer a secure and efficient user
               experience.
             </p>
-            <button className="btn_main border-0 ff_futura fw-normal mt-4">
+            <button className="btn_main border-0 ff_futura fw-semibold mt-4">
               get started
             </button>
           </div>
