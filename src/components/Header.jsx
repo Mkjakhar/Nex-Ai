@@ -46,7 +46,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
                 >
                   Marketplace
                 </Link>
@@ -55,7 +55,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/About"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
                 >
                   About
                 </Link>
@@ -64,7 +64,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
                 >
                   NexChat
                 </Link>
@@ -73,7 +73,7 @@ function Header(props) {
                 <Link
                   style={{ letterSpacing: "0.23em" }}
                   to="/Tokens"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
                 >
                   Tokens
                 </Link>
