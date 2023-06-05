@@ -12,8 +12,10 @@ function Assistant() {
           </h2>
           <div className="row mt-lg-5 mt-4">
             <div className="col-lg-6">
-              <div>
-                <img className="w-100" src={assistant1} alt="img" />
+              <div className="assistent_cards">
+                <div className="overflow-hidden">
+                  <img className="w-100" src={assistant1} alt="img" />
+                </div>
                 <p className="peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai is an advanced
@@ -29,8 +31,10 @@ function Assistant() {
               </div>
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0">
-              <div>
-                <img className="w-100" src={assistant2} alt="img" />
+              <div className="assistent_cards">
+                <div className="overflow-hidden">
+                  <img className="w-100" src={assistant2} alt="img" />
+                </div>
                 <p className="peragraph_common text_dark_black mb-0 mt-3 pe-lg-5">
                   <em>
                     Nexai offers an incredibly

@@ -9,12 +9,12 @@ function UniqueFeatures() {
         <img
           className="Pos_FLower_Unique position-absolute "
           src={Pos_FLower_Unique}
-          alt=""
+          alt="Pos_FLower_Unique"
         />
         <img
           className="Pos_FLower_Unique2 position-absolute z_index4 "
           src={Pos_FLower_Unique}
-          alt=""
+          alt="Pos_FLower_Unique"
         />
         <div className="container position-relative z_index10 mb-xl-4">
           <div className="py-lg-5">
@@ -28,7 +28,7 @@ function UniqueFeatures() {
                 return (
                   <div
                     style={{ borderRadius: "32px" }}
-                    className={`content_box transition200 col-lg-8 col-md-10  pe-4 ${data.Bg_Class}`}>
+                    className={`content_box transition200 col-lg-8 col-md-10 pe-4 ${data.Bg_Class}`}>
                     <div className="p-4 mb-2">
                       <span className="svg transition300 d-inline-block">
                         {data.svg_Img}
