@@ -4,7 +4,7 @@ import Shinewave_img__BLockCahin from "../assets/img/svg/Wave__Shine.svg";
 import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
-import earthTexture from "../assets/img/png/globe.jpg"; // Import the Earth texture image
+import earthTexture from "../assets/img/png/globe1.png"; // Import the Earth texture image
 extend({ OrbitControls });
 function Globe() {
   const globeRef = useRef();
@@ -69,7 +69,7 @@ function BlockchainTechnology() {
         />
 
 
-        <div className="container position-relative z_index3">
+        <div className="container position-relative z_index3 pb-5">
           <div className="pt-lg-5">
             <h2 className="heading_common text-center text_light_white">
               Blockchain & AI technology
