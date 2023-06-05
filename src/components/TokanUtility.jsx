@@ -5,7 +5,9 @@ import { accordian } from "../Pagejs/DataMap";
 function TokanUtility() {
   return (
     <>
-      <section id="Accordian" className="py-5  pb-sm-5 position-relative">
+      <section
+        id="Accordian"
+        className="py-5 my-xl-5  pb-sm-5 position-relative">
         <div className="container">
           <div className="py-lg-5">
             <h2 className="heading_common text-center mb-md-5 mb-4 ">
@@ -17,8 +19,7 @@ function TokanUtility() {
                   return (
                     <Accordion.Item
                       className="px-0 Accordion_linear position-relative py-4"
-                      eventKey={data.Index}
-                    >
+                      eventKey={data.Index}>
                       <Accordion.Header className="accordion_Header">
                         <h2 className="ff_futura fw-normal fs_4xl text_dark_black mb-0">
                           {data.Heading}
@@ -27,8 +28,7 @@ function TokanUtility() {
                       <Accordion.Body>
                         <p
                           style={{ maxWidth: "987px" }}
-                          className="peragraph_common mb-0 mt-2 pt-1"
-                        >
+                          className="peragraph_common mb-0 mt-2 pt-1">
                           {data.Pera}
                         </p>
                       </Accordion.Body>

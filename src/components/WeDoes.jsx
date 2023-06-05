@@ -5,7 +5,7 @@ function WeDoes() {
     <>
       <section className="min_h_wedose_custom position-relative d-flex justify-content-center align-items-center">
         <img
-          className="Flower__Image position-absolute"
+          className="Flower__Image position-absolute mb-xxl-5"
           src={Shapr_flower}
           alt=""
         />

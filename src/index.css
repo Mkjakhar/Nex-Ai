@@ -427,7 +427,7 @@
 @media (min-width: 768px) {
   .ImgEarth,
   .Flower__Image {
-    width: 512px;
+    width: 550px;
   }
   :root {
     --fs-sm: 16px;
