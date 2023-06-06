@@ -29,6 +29,7 @@ export const Unique = [
     PeraGraph:
       "Imagine you're at work, and you realize you forgot to bring an important file stored on your desktop computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and request access to your computer. ",
     Bg_Class: "bg_pink",
+    borderColor: "border_pink",
   },
   {
     svg_Img: (
@@ -58,6 +59,7 @@ export const Unique = [
     PeraGraph:
       "While you're out with your family, you may wonder if you remembered to turn off the stove. Thanks to Nexai, this is no longer a concern. Using the Nexai app, you can initiate a video call with Nexai and activate the mini drone stationed in your home. ",
     Bg_Class: "bg_light_yellow",
+    borderColor: "border_yellow",
   },
   {
     svg_Img: (
@@ -94,6 +96,7 @@ export const Unique = [
     PeraGraph:
       "Nexai goes beyond standard home assistants by taking proactive initiatives and engaging in natural language conversations. It communicates with you as if you're talking to a friend,",
     Bg_Class: "bg_Green",
+    borderColor: "border_green",
   },
   {
     svg_Img: (
@@ -118,6 +121,7 @@ export const Unique = [
     PeraGraph:
       "Nexai utilizes the hardware sensors placed throughout your home to understand your location and deliver relevant information or actions. For instance, if you're in the bedroom and there's a smart TV present, Nexai will automatically display on the TV screen. ",
     Bg_Class: "bg_light_blue",
+    borderColor: "border_blue",
   },
 ];
 

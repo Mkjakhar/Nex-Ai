@@ -91,7 +91,7 @@ function UniqueFeatures() {
                 return (
                   <div
                     style={{ borderRadius: "32px" }}
-                    className={`topReveale content_box transition200 col-lg-8 col-md-10  pe-4 ${data.Bg_Class}`}
+                    className={`topReveale content_box transition200 col-lg-8 col-md-10  pe-4 ${data.Bg_Class} ${data.borderColor}`}
                   >
                     <div className="p-4 mb-2">
                       <span className="svg transition300 d-inline-block">
