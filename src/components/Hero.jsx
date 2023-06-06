@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import heroGif from "../assets/GIf/hero-gif.gif";
+import video from "../assets/video/nex-ai.mp4";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Hero() {
@@ -11,7 +11,7 @@ function Hero() {
           scrollTrigger: {
             trigger: ".first",
             start: "top 40%",
-            end: "bottom top", 
+            end: "bottom top",
             // markers: true,
           },
         })
@@ -24,7 +24,7 @@ function Hero() {
           },
           {
             x: "0%",
-            opacity: 1, 
+            opacity: 1,
             stagger: 0.1,
             ease: "power3.out",
           },
@@ -34,11 +34,10 @@ function Hero() {
           ".hero_vid",
           {
             overflow: "hidden",
-           
+
             opacity: 0,
           },
           {
-            
             opacity: 1,
             duration: 2,
             stagger: 1,
@@ -46,11 +45,9 @@ function Hero() {
           },
           "-=0.5"
         );
-    }, );
+    });
   }, []);
   return (
-
-   
     <>
       <section
         id="hero"
@@ -60,7 +57,9 @@ function Hero() {
         <span className="hero_layer"></span>
         <span className="hero_upper_layer"></span>
         <span className="hero_circle_layer"></span>
-        <img className="hero_gif_position" src={heroGif} alt="heroGif" />
+        <video className="hero_gif_position" autoPlay muted loop>
+          <source src={video} type="video/mp4" />
+        </video>
         <div className="container position-relative z_index3 py-5">
           <div className="row">
             <div className="col-xl-6 col-lg-7 col-md-10">
@@ -70,25 +69,24 @@ function Hero() {
                   <span>e</span>
                   <span>x</span>
                   <span>a</span>
-                  <span>i </span> 
+                  <span>i </span>
                   <span>i</span>
                   <span>s </span>
-                   <span>a</span>
-                  <span>n </span> 
+                  <span>a</span>
+                  <span>n </span>
                   <span>ad</span>
                   <span>va</span>
                   <span>nc</span>
-                    <span>ed </span>
-                    <span>AI</span>
-                    <span>-</span>
-                    <span>po</span>
-                    <span>we</span>
-                    <span>red </span>
-                    <span>ass</span>
-                    <span>is</span>
-                    <span>ta</span>
-                    <span>nt</span>
-                  
+                  <span>ed </span>
+                  <span>AI</span>
+                  <span>-</span>
+                  <span>po</span>
+                  <span>we</span>
+                  <span>red </span>
+                  <span>ass</span>
+                  <span>is</span>
+                  <span>ta</span>
+                  <span>nt</span>
                 </h1>
                 <p className="ff_futura fw-normal fs_md text_light_white mb-0 py-3 ">
                   Etiam viverra nec libero a. A id id tempus molestie sed.
