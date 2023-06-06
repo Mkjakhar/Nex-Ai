@@ -13,10 +13,14 @@ import Footer from "./components/Footer";
 import TokanUtility from "./components/TokanUtility";
 import GetStarted from "./components/GetStarted";
 import Algorithum from "./components/Algorithum";
+import BackToTop from "./components/BackToTop";
+import LoaderHome from "./components/LoaderHome";
 
 function App() {
   return (
     <>
+      <BackToTop />
+      <LoaderHome />
       <div className="overflow-hidden">
         <div className="min_vh_100 d-flex flex-column">
           <div className="position-relative z_index8">
