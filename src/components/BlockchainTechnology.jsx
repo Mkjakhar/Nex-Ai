@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Earth from "../assets/img/svg/BlockChain--Earth-Center.svg";
 import Shinewave_img__BLockCahin from "../assets/img/svg/Wave__Shine.svg";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
@@ -58,6 +60,53 @@ function Controls() {
 
 
 function BlockchainTechnology() {
+
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    setTimeout(() => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".second",
+            start: "top 40%",
+            end: "bottom top",
+            // markers: true,
+          },
+        })
+        .fromTo(
+          ".leftReveale",
+          {
+            overflow: "hidden",
+            x: "-100%",
+            opacity: 0,
+          },
+          {
+            x: "0%",
+            opacity: 1,
+            duration: 2,
+            ease: "power3.out",
+          },
+          "-=1"
+        )
+        .fromTo(
+          ".rightReveal",
+          {
+            overflow: "hidden",
+            x: "100%",
+            opacity: 0,
+          },
+          {
+            x: "0%",
+            opacity: 1,
+            duration: 2,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        );
+    });
+  }, []);
+
   return (
     <>
    
