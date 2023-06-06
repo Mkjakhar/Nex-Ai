@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
-import earthTexture from "../assets/img/png/globe1.png"; // Import the Earth texture image
+import earthTexture from "../assets/img/png/Vector.png"; // Import the Earth texture image
 extend({ OrbitControls });
 function Globe() {
   const globeRef = useRef();
