@@ -26,7 +26,7 @@ function Hero() {
           },
           {
             x: "0%",
-            delay: 6,
+            delay: 4.5,
             opacity: 1, 
             opacity: 1,
             stagger: 0.1,

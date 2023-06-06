@@ -8,8 +8,6 @@ import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Algorithum = () => {
-
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     setTimeout(() => {
@@ -40,15 +38,14 @@ const Algorithum = () => {
         .fromTo(
           ".alogoPara",
           {
-           
-            scale:0,
+            scale: 0,
             opacity: 0,
-            visibility:"hidden",
+            visibility: "hidden",
           },
           {
-            scale:1,
+            scale: 1,
             overflow: "hidden",
-            visibility:"visible",
+            visibility: "visible",
             opacity: 1,
             duration: 1,
             stagger: 1,
@@ -59,12 +56,11 @@ const Algorithum = () => {
         .fromTo(
           ".algorithum_cards",
           {
-           
-            scale:0,
-            opacity: 0, 
+            scale: 0,
+            opacity: 0,
           },
           {
-            scale:1,
+            scale: 1,
             opacity: 1,
             duration: 1,
             stagger: 0.01,
@@ -74,7 +70,6 @@ const Algorithum = () => {
         );
     });
   }, []);
-
 
   const algoSlider = useRef();
   const settings = {
