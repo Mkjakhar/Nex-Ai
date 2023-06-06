@@ -82,7 +82,7 @@ const Algorithum = () => {
     autoplaySpeed: 4000,
     slidesToScroll: 1,
     arrows: false,
-    // fade: "fade",
+    fade: "fade",
   };
   return (
     <>
