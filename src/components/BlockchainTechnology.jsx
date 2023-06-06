@@ -21,8 +21,12 @@ function Globe() {
 
   return (
     <mesh ref={globeRef}>
-      <sphereBufferGeometry args={[1.5, 64, 64]} />
+      <sphereBufferGeometry args={[1.7, 64, 64]} />
       <meshStandardMaterial
+       side={THREE.DoubleSide}
+       transparent // Make the material transparent
+       opacity={1} // Set the opacity level (0.0 to 1.0)
+       alphaTest={0.5} 
         map={new THREE.TextureLoader().load(earthTexture)}
       />
     </mesh>
