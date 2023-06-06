@@ -113,7 +113,7 @@ function Lights() {
                       <path
                         d="M1.29297 47.0984L24 24.3928L1.29297 1.68574"
                         stroke="#0B0A0A"
-                        stroke-width="2"
+                        strokeWidth="2"
                       />
                     </svg>
                   </span>
