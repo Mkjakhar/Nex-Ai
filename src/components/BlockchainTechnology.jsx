@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Earth from "../assets/img/svg/BlockChain--Earth-Center.svg";
 import Shinewave_img__BLockCahin from "../assets/img/svg/Wave__Shine.svg";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
@@ -58,6 +60,131 @@ function Controls() {
 
 
 function BlockchainTechnology() {
+
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    setTimeout(() => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".Shinewave_img__BLockCahin",
+            start: "top 40%",
+            end: "bottom top",
+            // markers: true,
+          },
+        })
+        .fromTo(
+          ".blockcahinHEading",
+          {
+            overflow: "hidden",
+             
+            opacity: 0,
+          },
+          {
+            
+            opacity: 1,
+            duration: 1,
+            ease: "power3.out",
+          },
+          "-=0.9"
+        )
+        .fromTo(
+          ".blockcahinPara",
+          {
+            overflow: "hidden",
+            y: "-100%",
+            opacity: 0,
+          },
+          {
+            y: "0%",
+            opacity: 1,
+            duration: 1,
+            ease: "power3.out",
+          },
+          "-=0.9"
+        )
+        .fromTo(
+          ".box_blockchain_pos1",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos2",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos3",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos4",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".ImgEarth",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+            rotation: 180,
+          },
+          {
+            rotation: 0,
+            scale:1,
+            opacity: 1,
+            duration: 1,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        );
+    });
+  }, []);
+
   return (
     <>
    
@@ -71,10 +198,10 @@ function BlockchainTechnology() {
 
         <div className="container position-relative z_index3 pb-5">
           <div className="pt-lg-5">
-            <h2 className="heading_common text-center text_light_white">
+            <h2 className="heading_common text-center text_light_white blockcahinHEading">
               Blockchain & AI technology
             </h2>
-            <p className="text_light_white op07 peragraph_common text-center">
+            <p className="text_light_white op07 peragraph_common text-center blockcahinPara">
               By building the software on blockchain, Nexai provides the
               following advantages
             </p>

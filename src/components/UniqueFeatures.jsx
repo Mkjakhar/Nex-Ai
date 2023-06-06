@@ -12,7 +12,7 @@ function UniqueFeatures() {
         .timeline({
           scrollTrigger: {
             trigger: ".third",
-            start: "top 15%",
+            start: "top 40%",
             end: "bottom top",
             // markers: true,
           },
@@ -22,9 +22,11 @@ function UniqueFeatures() {
           {
             scaleX: "50deg",
             opacity: 0,
+            skewX: 30,
           },
           {
             scale: 1,
+            skewX: 0,
             opacity: 1,
             duration: 1,
             stagger: 0.5,
@@ -46,7 +48,7 @@ function UniqueFeatures() {
             stagger: 0.1,
             ease: "power3.out",
           },
-          "-=0.5"
+          "-=1"
         );
     });
   }, []);
