@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import girlImg from "../assets/img/webp/girl-img.webp";
 import string from "../assets/img/svg/stting.svg";
 import Slider from "react-slick";
 import { Slider__Data } from "../Pagejs/DataMap";
+import sliderArrow from "../assets/img/svg/slider-arrow.svg";
 import { Container } from "react-bootstrap";
 
 function Lights() {
+  const lightSlider = useRef();
   const settings = {
     dots: false,
     infinite: true,
@@ -13,7 +15,7 @@ function Lights() {
     slidesToShow: 1,
     autoplay: true,
     pauseOnHover: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     slidesToScroll: 1,
     arrows: false,
     fade: "fade",
@@ -29,35 +31,72 @@ function Lights() {
             </i>
           </h4>
         </Container>
-        <div id="lights" style={{ background: "#FFE4C7" }} className="">
-          {/* <div className="container"> */}
-          <div className="row flex-column-reverse flex-lg-row align-items-center">
-            <div className="col-xl-7 col-lg-6">
-              <div className="mt-4 mt-lg-0">
-                <img
-                  className="Img_width_Light_Custom"
-                  src={girlImg}
-                  alt="img"
-                />
+        <div
+          id="lights"
+          className="position-relative"
+          style={{ background: "#FFE4C7" }}
+        >
+          <div className="custom_container">
+            <div className="row flex-column-reverse flex-lg-row align-items-center">
+              <div className="col-xl-7 col-lg-6">
+                <div className="mt-4 mt-lg-0">
+                  <img
+                    className="Img_width_Light_Custom"
+                    src={girlImg}
+                    alt="img"
+                  />
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-6">
+                <Slider ref={lightSlider} {...settings}>
+                  {Slider__Data.map((data) => {
+                    return (
+                      <div className="d-flex align-items-center flex-column align-items-lg-start">
+                        <h2 className="ff_futura text-center text-lg-start fw-normal light_slider_para fs_4x4l text_dark_black text-capitalize mb-2 mt-4 pt-1">
+                          {data.heading}
+                        </h2>
+                        <p className="light_slider_para text_dark_black mb-0 mb-sm-3 ff_futura text-center text-lg-start opacity_07">
+                          {data.paragraph}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </Slider>
+                <div className="d-flex align-items-center light_arrows gap-5 justify-content-center">
+                  <span onClick={() => lightSlider.current.slickPrev()}>
+                    <svg
+                      width="26"
+                      height="48"
+                      viewBox="0 0 26 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.29297 47.0984L24 24.3928L1.29297 1.68574"
+                        stroke="#0B0A0A"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span onClick={() => lightSlider.current.slickNext()}>
+                    <svg
+                      width="26"
+                      height="48"
+                      viewBox="0 0 26 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.29297 47.0984L24 24.3928L1.29297 1.68574"
+                        stroke="#0B0A0A"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                </div>
               </div>
             </div>
-            <div className="col-xl-5 col-lg-6 my-5 my-lg-0 ">
-              <Slider {...settings}>
-                {Slider__Data.map((data) => {
-                  return (
-                    <div className="w-50">
-                      {/* <img src={data.img_String} alt="vector" /> */}
-                      <h2 className="ff_futura fw-normal fs_4x4l text_dark_black text-capitalize mb-0 mt-4 pt-1">
-                        {data.heading}
-                      </h2>
-                      <p>{data.paragraph}</p>
-                    </div>
-                  );
-                })}
-              </Slider>
-            </div>
           </div>
-          {/* </div> */}
         </div>
       </section>
     </>
