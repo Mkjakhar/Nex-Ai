@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import heroGif from "../assets/GIf/hero-gif.gif";
+import heroGif from "../assets/gif/hero-gif.gif";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Hero() {

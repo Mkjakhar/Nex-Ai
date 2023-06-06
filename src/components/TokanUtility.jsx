@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { accordian } from "../Pagejs/DataMap";
+import { accordian } from "../pagejs/DataMap";
 
 function TokanUtility() {
   return (

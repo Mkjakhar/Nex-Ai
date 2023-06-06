@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import girlImg from "../assets/img/webp/girl-img.webp";
 import string from "../assets/img/svg/stting.svg";
 import Slider from "react-slick";
-import { Slider__Data } from "../Pagejs/DataMap";
+import { Slider__Data } from "../pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg";
 import { Container } from "react-bootstrap";
 
