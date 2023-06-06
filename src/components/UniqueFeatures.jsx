@@ -83,7 +83,7 @@ function UniqueFeatures() {
             </h2>
             <div
               style={{ maxHeight: "660px" }}
-              className=" scrollBar-none hover_box d-flex overflow-auto flex-column align-items-center gap-4  "
+              className="scrollBar-none hover_box d-flex overflow-auto flex-column align-items-center gap-4  "
             >
               {Unique.map((data) => {
                 return (
