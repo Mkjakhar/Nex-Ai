@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Canvas, useThree, extend, useFrame } from "react-three-fiber";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
-import earthTexture from "../assets/img/png/Vector.png"; // Import the Earth texture image
+import earthTexture from "../assets/img/png/political.png"; // Import the Earth texture image
 extend({ OrbitControls });
 function Globe() {
   const globeRef = useRef();
@@ -26,7 +26,7 @@ function Globe() {
        side={THREE.DoubleSide}
        transparent // Make the material transparent
        opacity={1} // Set the opacity level (0.0 to 1.0)
-       alphaTest={0.5} 
+       alphaTest={0.1} 
         map={new THREE.TextureLoader().load(earthTexture)}
       />
     </mesh>
