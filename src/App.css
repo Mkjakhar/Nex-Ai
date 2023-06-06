@@ -14,11 +14,11 @@
 .threelinechild {
   overflow: hidden;
   width: 100%;
-  height: 0.2px;
+  height: 3px;
+  background-color: white;
   margin: 4px;
   transition: all 0.4s ease-in-out;
   border-radius: 50px;
-  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -32,7 +32,7 @@
   background: #ffffff !important;
   transition: all 0.4s ease-in-out;
   border-radius: 50px;
-  transform: rotate(45deg) translate(6%, 15%);
+  transform: rotate(45deg) translate(6.5%, 65%);
 }
 
 .falseline3 {
@@ -305,14 +305,21 @@
 .aglo_arrows span {
   opacity: 0.3;
   width: 22px;
+  cursor: pointer;
   transition: linear 200ms;
 }
 .aglo_arrows span:hover {
   opacity: 1;
 }
+.logo_size {
+  width: 70px;
+}
 @media (min-width: 768.1px) {
   .min_h_wedose_custom {
     min-height: 708px;
+  }
+  .logo_size {
+    width: 90px;
   }
   .hero_gif_position {
     width: 75%;
@@ -335,10 +342,6 @@
   }
 }
 @media (min-width: 991.9px) {
-  .Pos_FLower_Unique {
-    left: -18%;
-    width: 500px;
-  }
   .Shinewave_img__BLockCahin {
     height: 599px;
   }
@@ -348,6 +351,10 @@
   }
 }
 @media (min-width: 1199.9px) {
+  .Pos_FLower_Unique {
+    left: -18%;
+    width: 500px;
+  }
   .Img_width_Light_Custom {
     width: 100%;
   }

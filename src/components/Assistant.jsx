@@ -13,7 +13,7 @@ function Assistant() {
           scrollTrigger: {
             trigger: ".second",
             start: "top 40%",
-            end: "bottom top", 
+            end: "bottom top",
             // markers: true,
           },
         })
@@ -26,8 +26,8 @@ function Assistant() {
           },
           {
             x: "0%",
-            opacity: 1,  
-            duration:2,
+            opacity: 1,
+            duration: 2,
             ease: "power3.out",
           },
           "-=1"
@@ -48,18 +48,17 @@ function Assistant() {
           },
           "-=0.5"
         );
-    }, );
+    });
   }, []);
   return (
     <>
-      <section className="second py-5 my-lg-5">
+      <section className="second py-5 my-lg-5 position-relative z_index1">
         <div className="container position-relative z_index10">
           <h2 className="heading_common text_dark_black text-center text-capitalize mb-0">
             Ai-Powered Home Assistant
           </h2>
           <div className="row mt-lg-5 mt-4">
             <div className="col-lg-6">
-               
               <div className="assistent_cards leftReveale">
                 <div className="overflow-hidden">
                   <img className="w-100" src={assistant1} alt="img" />
@@ -79,7 +78,6 @@ function Assistant() {
               </div>
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0">
-            
               <div className="assistent_cards rightReveal">
                 <div className="overflow-hidden">
                   <img className="w-100" src={assistant2} alt="img" />

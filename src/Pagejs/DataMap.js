@@ -1,5 +1,14 @@
 import string from "../assets/img/svg/stting.svg";
 import nlp from "../assets/img/svg/nlp.svg";
+import facial from "../assets/img/svg/facial.svg";
+import image from "../assets/img/svg/image.svg";
+import learning from "../assets/img/svg/learning.svg";
+import machine from "../assets/img/svg/machine.svg";
+import optimize from "../assets/img/svg/optimize.svg";
+import recom from "../assets/img/svg/recom.svg";
+import security from "../assets/img/svg/security.svg";
+import sentiment from "../assets/img/svg/sentiment.svg";
+import voice from "../assets/img/svg/voice.svg";
 export const Unique = [
   {
     svg_Img: (
@@ -283,55 +292,55 @@ export const algorithumData = [
   },
   {
     Index: "1",
-    img: nlp,
+    img: learning,
     Heading: "Deep Learning",
     Para: "Nex leverages deep learning algorithms, including Contextual Reasoning Algorithm (CRA) and Evolutionary Deep Architecture (EDA), to analyze and derive insights from large volumes of data. These algorithms enhance Nex's ability to recognize patterns, adapt to user preferences, and make relevant recommendations.",
   },
   {
     Index: "2",
-    img: nlp,
+    img: facial,
     Heading: "Facial Recognition",
     Para: "By employing advanced facial recognition algorithms, such as Progressive Principal Analysis (PPA) and Multi-Level Principal Analysis (MLPA), Nex can learn to recognize and differentiate between authorized individuals and unknown persons. This is particularly useful for security purposes and alerting the user in case of unauthorized access.",
   },
   {
     Index: "3",
-    img: nlp,
+    img: image,
     Heading: "Image Processing",
     Para: "Nex's surveillance cameras and AI mini-drones utilize image processing algorithms, including Image Classification Algorithm (ICA) and Object Detection Algorithm (ODA), to capture and analyze visual information. These algorithms enable high-quality image rendering, object detection, and monitoring of the home environment.",
   },
   {
     Index: "4",
-    img: nlp,
+    img: machine,
     Heading: "Machine Learning",
     Para: "By applying machine learning algorithms, such as Reinforcement Learning Algorithm (RLA) and Meta-Learning Algorithm (MLA), Nex continuously improves its performance and adapts to user needs. These algorithms allow Nex to learn from interactions and experiences to offer more personalized and relevant assistance over time.",
   },
   {
     Index: "5",
-    img: nlp,
+    img: voice,
     Heading: "Voice Recognition",
     Para: "Nex utilizes advanced voice recognition algorithms, including Speaker Recognition Algorithm (SRA) and Voice Transcription Algorithm (VTA), to interpret and understand user speech. These algorithms enable Nex to identify and transcribe user voice commands and questions to provide meaningful responses.",
   },
   {
     Index: "6",
-    img: nlp,
+    img: sentiment,
     Heading: "Sentiment Analysis",
     Para: "To understand user emotions and reactions, Nex employs sentiment analysis algorithms, such as Emotion Detection Algorithm (EDA) and Sentiment Classification Algorithm (SCA). By analyzing the tone and context of language, Nex can assess the user's emotional state and tailor its responses accordingly.",
   },
   {
     Index: "7",
-    img: nlp,
+    img: recom,
     Heading: "Recommendation Algorithms",
     Para: "Nex benefits from recommendation algorithms, including Collaborative Filtering Algorithm (CFA) and Content-Based Filtering Algorithm (CBFA), to deliver personalized recommendations and solutions to the user. By analyzing user behavior, preferences, and past interactions, Nex can suggest relevant products, services, or activities that may be of interest.",
   },
   {
     Index: "8",
-    img: nlp,
+    img: security,
     Heading: "Security Algorithms",
     Para: "Within Nex, various security algorithms, such as Encryption Algorithm (EA) and Authentication Algorithm (AA), are used to protect user data and ensure system integrity. These algorithms secure communications and verify user identity.",
   },
   {
     Index: "9",
-    img: nlp,
+    img: optimize,
     Heading: "Optimization Algorithms",
     Para: "Nex utilizes optimization algorithms, including Task Scheduling Algorithm (TSA) and Resource Allocation Algorithm (RAA), to handle and optimize various tasks and resource This provides users with a smoother and more efficient daily experience by managing meeting scheduling, task management, and resource planning.",
   },

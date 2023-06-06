@@ -4,6 +4,7 @@ import nlp from "../assets/img/svg/nlp.svg"
 import Slider from "react-slick";
 import { algorithumData } from "../Pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg"
+import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 const Algorithum = () => {
     const algoSlider = useRef()
     const settings = {
@@ -20,8 +21,13 @@ const Algorithum = () => {
       };
   return (
     <>
-      <section className="bg_blue py-5">
-        <Container className="pt-md-4">
+      <section className="bg_blue py-5 position-relative overflow-hidden"
+      ><img
+      className="Pos_FLower_Unique position-absolute "
+      src={Pos_FLower_Unique}
+      alt="Pos_FLower_Unique"
+    />
+        <Container className="pt-md-4 position-relative">
           <h2 className="mb-3 heading_common text-center text_light_white">
             Discover the Advanced
             <span className="d-xl-block"> Algorithms Powering Nexai's </span>

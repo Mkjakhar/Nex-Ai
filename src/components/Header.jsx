@@ -21,12 +21,9 @@ function Header(props) {
       >
         <div className="container ">
           <div className="d-flex justify-content-between align-items-center py-1">
-            <ul className="mb-0 p-0">
-              <Link to="/">
-                <img className="logo_size" src={logo} alt="LOGO-ICON" />
-              </Link>
-            </ul>
-
+            <Link to="/">
+              <img className="logo_size" src={logo} alt="LOGO-ICON" />
+            </Link>
             <div
               className={
                 navShow
@@ -135,7 +132,7 @@ function Header(props) {
               </li>
             </ul>
             <ul className="d-flex gap-1 mb-0 p-0 mb-0 justify-content-center align-items-center mt-4">
-              <button className="btn_main border-0 ff_futura fw-normal ">
+              <button className="btn_main border-0 ff_futura fw-semibold ">
                 get started
               </button>
             </ul>

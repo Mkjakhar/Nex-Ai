@@ -24,6 +24,7 @@
   --fs-xl: 20px;
   --fs-2x4l: 20px;
   --fs-2x8l: 24px;
+  --fs-3xl: 26px;
   --fs-4xl: 20px;
   --fs-4x4l: 34px;
   --fs-5x2l: 29px;
@@ -58,6 +59,9 @@
 .fs_2x8l {
   font-size: var(--fs-2x8l);
 }
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
@@ -75,7 +79,7 @@
   color: var(--clr-light-white);
 }
 .text_dark_black {
-  color: var(--clr-ldark-black);
+  color: var(--clr-dark-black);
 }
 .text_dark_blue {
   color: var(--clr-dark-blue) !important;
@@ -187,7 +191,6 @@
   font-size: var(--fs-4x4l);
   /* line-height: 150%; */
   /* text-transform: capitalize; */
-
 }
 .peragraph_common {
   font-family: "Futura Bk BT";
@@ -411,6 +414,7 @@
     --fs-xl: 20px;
     --fs-2x4l: 18px;
     --fs-2x8l: 28px;
+    --fs-3xl: 30px;
     --fs-4xl: 40px;
     --fs-4x4l: 44px;
     --fs-5x2l: 52px;
@@ -475,6 +479,7 @@
     --fs-xl: 20px;
     --fs-2x4l: 24px;
     --fs-2x8l: 28px;
+    --fs-3xl: 32px;
     --fs-4xl: 40px;
     --fs-4x4l: 44px;
     --fs-5x2l: 52px;
@@ -546,6 +551,7 @@
     --fs-xl: 20px;
     --fs-2x4l: 24px;
     --fs-2x8l: 28px;
+    --fs-3xl: 32px;
     --fs-4xl: 40px;
     --fs-4x4l: 44px;
     --fs-5x2l: 52px;
