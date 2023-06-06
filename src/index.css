@@ -109,7 +109,22 @@
 .bg_light_blue {
   background-color: var(--clr-bg-lightblue);
 }
-
+.content_box {
+  border: 1px solid transparent;
+  transition: linear 250ms;
+}
+.border_pink:hover {
+  border-color: #fd6464;
+}
+.border_green:hover {
+  border-color: #44e757;
+}
+.border_yellow:hover {
+  border-color: #ffe500;
+}
+.border_blue:hover {
+  border-color: #1c2ac9;
+}
 .btn_main {
   padding: 18px 32px;
   border-radius: 50px;
@@ -252,17 +267,6 @@
   display: none;
 }
 /*  */
-.hover_box .content_box:hover {
-  background-color: var(--bg_hover);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-}
-.hover_box .content_box:hover span.svg svg path,
-.hover_box .content_box:hover span.svg svg circle {
-  fill: rgba(124, 124, 124, 0.909);
-  stroke: rgba(124, 124, 124, 0.909);
-}
-
 .hover_box .content_box:hover span.svg {
   animation: Svg_move 2s linear 0s infinite alternate-reverse;
 }
