@@ -27,7 +27,7 @@
   --fs-3xl: 26px;
   --fs-4xl: 20px;
   --fs-4x4l: 34px;
-  --fs-5x2l: 29px;
+  --fs-5x2l: 36px;
   /*  */
   --clr-light-white: #fcfcfc;
   --clr-dark-black: #0b0a0a;
@@ -415,8 +415,8 @@
     --fs-2x4l: 18px;
     --fs-2x8l: 28px;
     --fs-3xl: 30px;
-    --fs-4xl: 40px;
-    --fs-4x4l: 44px;
+    --fs-4xl: 38px;
+    --fs-4x4l: 38px;
     --fs-5x2l: 52px;
   }
   .box_blockchain_pos1 {
@@ -447,7 +447,7 @@
     --fs-2x4l: 24px;
     --fs-2x8l: 28px;
     --fs-4xl: 40px;
-    --fs-4x4l: 44px;
+    --fs-4x4l: 40px;
     --fs-5x2l: 52px;
   }
   .box_blockchain_pos1 {
@@ -481,7 +481,7 @@
     --fs-2x8l: 28px;
     --fs-3xl: 32px;
     --fs-4xl: 40px;
-    --fs-4x4l: 44px;
+    --fs-4x4l: 40px;
     --fs-5x2l: 52px;
   }
   @keyframes BOxPos_Block1 {

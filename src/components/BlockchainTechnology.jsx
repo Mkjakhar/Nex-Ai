@@ -67,38 +67,116 @@ function BlockchainTechnology() {
       gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".second",
+            trigger: ".Shinewave_img__BLockCahin",
             start: "top 40%",
             end: "bottom top",
             // markers: true,
           },
         })
         .fromTo(
-          ".leftReveale",
+          ".blockcahinHEading",
           {
             overflow: "hidden",
-            x: "-100%",
+             
             opacity: 0,
           },
           {
-            x: "0%",
+            
             opacity: 1,
-            duration: 2,
+            duration: 1,
             ease: "power3.out",
           },
-          "-=1"
+          "-=0.9"
         )
         .fromTo(
-          ".rightReveal",
+          ".blockcahinPara",
           {
             overflow: "hidden",
-            x: "100%",
+            y: "-100%",
             opacity: 0,
           },
           {
-            x: "0%",
+            y: "0%",
             opacity: 1,
-            duration: 2,
+            duration: 1,
+            ease: "power3.out",
+          },
+          "-=0.9"
+        )
+        .fromTo(
+          ".box_blockchain_pos1",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos2",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos3",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1, 
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".box_blockchain_pos4",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 1,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".ImgEarth",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+            rotation: 180,
+          },
+          {
+            rotation: 0,
+            scale:1,
+            opacity: 1,
+            duration: 1,
             stagger: 1,
             ease: "power3.out",
           },
@@ -120,10 +198,10 @@ function BlockchainTechnology() {
 
         <div className="container position-relative z_index3 pb-5">
           <div className="pt-lg-5">
-            <h2 className="heading_common text-center text_light_white">
+            <h2 className="heading_common text-center text_light_white blockcahinHEading">
               Blockchain & AI technology
             </h2>
-            <p className="text_light_white op07 peragraph_common text-center">
+            <p className="text_light_white op07 peragraph_common text-center blockcahinPara">
               By building the software on blockchain, Nexai provides the
               following advantages
             </p>

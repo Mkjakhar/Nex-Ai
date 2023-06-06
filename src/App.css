@@ -299,20 +299,31 @@
 .algo_slider .slick-slide > div {
   display: flex;
 }
-.aglo_arrows span:first-child {
+.aglo_arrows span:first-child,.light_arrows span:first-child {
   rotate: 180deg;
 }
-.aglo_arrows span {
+.aglo_arrows span,.light_arrows span {
   opacity: 0.3;
   width: 22px;
   cursor: pointer;
   transition: linear 200ms;
 }
-.aglo_arrows span:hover {
+.aglo_arrows span:hover,.light_arrows span:hover {
   opacity: 1;
+}
+.light_arrows span:hover svg path {
+  stroke: var(--clr-dark-blue);
 }
 .logo_size {
   width: 70px;
+}
+.light_slider_para {
+  padding-left: 12px;
+}
+.custom_container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-right: 12px;
 }
 @media (min-width: 768.1px) {
   .min_h_wedose_custom {
@@ -328,7 +339,7 @@
     background: rgba(252, 252, 252, 0.08);
     padding: 40px 50px;
   }
-  .aglo_arrows span:first-child {
+  .aglo_arrows span:first-child{
     position: absolute;
     top: 50%;
     transform: translateY(50%);
@@ -345,18 +356,34 @@
   .Shinewave_img__BLockCahin {
     height: 599px;
   }
+  .light_slider_para {
+    max-width: 370px;
+    padding-left: unset;
+  }
+  .light_arrows span:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    left: 4%;
+  }
+  .light_arrows span:last-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4%;
+  }
   .Pos_FLower_Unique2 {
     right: -18%;
     width: 500px;
+  }
+  .Img_width_Light_Custom {
+    width: 100%;
   }
 }
 @media (min-width: 1199.9px) {
   .Pos_FLower_Unique {
     left: -18%;
     width: 500px;
-  }
-  .Img_width_Light_Custom {
-    width: 100%;
   }
   .min_vh_100 {
     min-height: 100vh;

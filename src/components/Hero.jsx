@@ -61,7 +61,7 @@ function Hero() {
         <span className="hero_upper_layer"></span>
         <span className="hero_circle_layer"></span>
         <img className="hero_gif_position" src={heroGif} alt="heroGif" />
-        <div className="container position-relative z_index3 py-lg-5">
+        <div className="container position-relative z_index3 py-5">
           <div className="row">
             <div className="col-xl-6 col-lg-7 col-md-10">
               <div className="z_index1 position-relative">
