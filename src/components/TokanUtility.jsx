@@ -1,16 +1,65 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { accordian } from "../pagejs/DataMap";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function TokanUtility() {
+  
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    setTimeout(() => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".tokan",
+            start: "top 30%",
+            end: "bottom top",
+            // markers: true,
+          },
+        })
+        .fromTo(
+          ".Tokenhead",
+          {
+            scaleX: "50deg",
+            opacity: 0,
+           
+          },
+          {
+         
+            opacity: 1,
+            duration: 1,
+            stagger: 0.5,
+            ease: "power3.out",
+          },
+          "-=1"
+        )
+        .fromTo(
+          ".Accordion_linear",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+          },
+          {
+            scale:1,
+            opacity: 1,
+            duration: 2,
+            stagger: 0.2,
+            ease: "power3.out",
+          },
+          "-=1"
+        );
+    });
+  }, []);
   return (
     <>
       <section
         id="Accordian"
-        className="py-5 my-xl-5  pb-sm-5 position-relative">
+        className="py-5 my-xl-5  pb-sm-5 position-relative tokan">
         <div className="container">
           <div className="py-lg-5">
-            <h2 className="heading_common text-center mb-md-5 mb-4 ">
+            <h2 className="heading_common text-center mb-md-5 mb-4 Tokenhead">
               NexAI Token & utility
             </h2>
             <div>

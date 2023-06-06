@@ -1,12 +1,51 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import girlImg from "../assets/img/webp/girl-img.webp";
 import string from "../assets/img/svg/stting.svg";
 import Slider from "react-slick";
 import { Slider__Data } from "../pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg";
 import { Container } from "react-bootstrap";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Lights() {
+
+
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    setTimeout(() => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".serviceslider",
+            start: "top 40%",
+            end: "bottom top",
+            scrub:true,
+            // markers: true,
+          },
+        })
+        .fromTo(
+          ".Img_width_Light_Custom",
+          {
+            
+            opacity: 0,
+            x: "-50%",
+          
+          },
+          {
+           
+            x: "0%",
+            opacity: 1,
+            duration: 1,
+         
+            ease: "power3.out",
+          },
+          "-=1"
+        )
+       
+    });
+  }, []);
+
   const lightSlider = useRef();
   const settings = {
     dots: false,
@@ -22,7 +61,7 @@ function Lights() {
   };
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative serviceslider">
         <Container>
           <h4 className="fs_3xl ff_futura text_dark_black text-center pb-4 pb-sm-5">
             <i>
@@ -51,7 +90,7 @@ function Lights() {
                 <Slider ref={lightSlider} {...settings}>
                   {Slider__Data.map((data) => {
                     return (
-                      <div className="d-flex align-items-center flex-column align-items-lg-start">
+                      <div className="d-flex align-items-center flex-column align-items-lg-start serviceslider">
                         <h2 className="ff_futura text-center text-lg-start fw-normal light_slider_para fs_4x4l text_dark_black text-capitalize mb-2 mt-4 pt-1">
                           {data.heading}
                         </h2>

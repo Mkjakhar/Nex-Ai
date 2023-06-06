@@ -104,6 +104,24 @@ function BlockchainTechnology() {
           "-=0.9"
         )
         .fromTo(
+          ".ImgEarth",
+          {
+            overflow: "hidden",
+            scale:0,
+            opacity: 0,
+            rotation: 180,
+          },
+          {
+            rotation: 0,
+            scale:1,
+            opacity: 1,
+            duration: 1,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
           ".box_blockchain_pos1",
           {
             overflow: "hidden",
@@ -164,24 +182,7 @@ function BlockchainTechnology() {
           },
           "-=0.5"
         )
-        .fromTo(
-          ".ImgEarth",
-          {
-            overflow: "hidden",
-            scale:0,
-            opacity: 0,
-            rotation: 180,
-          },
-          {
-            rotation: 0,
-            scale:1,
-            opacity: 1,
-            duration: 1,
-            stagger: 1,
-            ease: "power3.out",
-          },
-          "-=0.5"
-        );
+        
     });
   }, []);
 

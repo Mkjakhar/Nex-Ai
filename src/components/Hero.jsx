@@ -10,7 +10,7 @@ function Hero() {
         .timeline({
           scrollTrigger: {
             trigger: ".first",
-            start: "top 40%",
+            start: "top 30%",
             end: "bottom top", 
             // markers: true,
           },
@@ -20,10 +20,12 @@ function Hero() {
           {
             overflow: "hidden",
             x: "-50%",
-            opacity: 1,
+            opacity: 0,
+         
           },
           {
             x: "0%",
+            delay: 6,
             opacity: 1, 
             stagger: 0.1,
             ease: "power3.out",
@@ -31,16 +33,32 @@ function Hero() {
           "-=0.5"
         )
         .fromTo(
-          ".hero_vid",
+          ".heroPara",
           {
             overflow: "hidden",
            
             opacity: 0,
           },
           {
-            
+          
             opacity: 1,
             duration: 2,
+            stagger: 1,
+            ease: "power3.out",
+          },
+          "-=0.5"
+        )
+        .fromTo(
+          ".hero_btn",
+          {
+            overflow: "hidden",
+           
+            opacity: 0,
+          },
+          {
+          
+            opacity: 1,
+            duration: 1,
             stagger: 1,
             ease: "power3.out",
           },
@@ -90,10 +108,10 @@ function Hero() {
                     <span>nt</span>
                   
                 </h1>
-                <p className="ff_futura fw-normal fs_md text_light_white mb-0 py-3 ">
+                <p className="ff_futura fw-normal fs_md text_light_white mb-0 py-3 heroPara">
                   Etiam viverra nec libero a. A id id tempus molestie sed.
                 </p>
-                <button className="btn_main border-0 ff_futura fw-semibold mt-4">
+                <button className="btn_main border-0 ff_futura fw-semibold mt-4 hero_btn">
                   get started
                 </button>
               </div>
