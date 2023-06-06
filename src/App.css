@@ -299,16 +299,19 @@
 .algo_slider .slick-slide > div {
   display: flex;
 }
-.aglo_arrows span:first-child,.light_arrows span:first-child {
+.aglo_arrows span:first-child,
+.light_arrows span:first-child {
   rotate: 180deg;
 }
-.aglo_arrows span,.light_arrows span {
+.aglo_arrows span,
+.light_arrows span {
   opacity: 0.3;
   width: 22px;
   cursor: pointer;
   transition: linear 200ms;
 }
-.aglo_arrows span:hover,.light_arrows span:hover {
+.aglo_arrows span:hover,
+.light_arrows span:hover {
   opacity: 1;
 }
 .light_arrows span:hover svg path {
@@ -325,9 +328,60 @@
   margin: 0 auto;
   padding-right: 12px;
 }
+/* back to top */
+.backToTopArrow svg {
+  height: 20px;
+  width: 20px;
+  fill: white;
+}
+
+.backToTopArrow {
+  background-color: var(--clr-dark-blue);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_top {
+  z-index: 999;
+}
+.preloderCounter {
+  width: 200px;
+  height: 100%;
+}
+.preloderbarWidth {
+  width: 300px;
+}
+
+.pre_loading_logo {
+  width: 50%;
+  min-height: 100px;
+  max-width: 180px;
+  animation: pre_loading_logo 2s linear infinite;
+}
+
+@keyframes pre_loading_logo {
+  0% {
+    scale: 0.8;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 0.8;
+  }
+}
+
 @media (min-width: 768.1px) {
   .min_h_wedose_custom {
     min-height: 708px;
+  }
+  .preloderbarWidth {
+    width: 400px;
   }
   .logo_size {
     width: 90px;
@@ -339,7 +393,7 @@
     background: rgba(252, 252, 252, 0.08);
     padding: 40px 50px;
   }
-  .aglo_arrows span:first-child{
+  .aglo_arrows span:first-child {
     position: absolute;
     top: 50%;
     transform: translateY(50%);
@@ -390,5 +444,10 @@
   }
   .container {
     width: 1140px;
+  }
+}
+@media (min-width: 1600px) {
+  .preloderbarWidth {
+    width: 600px;
   }
 }

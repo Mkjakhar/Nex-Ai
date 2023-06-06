@@ -589,6 +589,9 @@
 #Accordian .accordion-button {
   padding: 0px !important;
 }
+#Accordian .accordion-button:not(.collapsed) h2 {
+  color: var(--clr-dark-blue);
+}
 #Accordian .accordion-button::after {
   flex-shrink: 0;
   width: 45px !important;
