@@ -15,11 +15,11 @@ import GetStarted from "./components/GetStarted";
 import Algorithum from "./components/Algorithum";
 import BackToTop from "./components/BackToTop";
 import LoaderHome from "./components/LoaderHome";
-
+import Token from "./components/Token";
 function App() {
   return (
     <>
-      <BackToTop />
+      {/* <BackToTop />
       <LoaderHome />
       <div className="overflow-hidden">
         <div className="min_vh_100 d-flex flex-column">
@@ -39,7 +39,8 @@ function App() {
         <Algorithum />
         <GetStarted />
         <Footer />
-      </div>
+      </div> */}
+      <Token />
     </>
   );
 }
