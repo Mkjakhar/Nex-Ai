@@ -18,7 +18,7 @@ const BlockchainCrypto = () => {
               <h2 className="fs_4x4l ff_futura fw-normal text_dark_black text-capitalize">
                 Blockchain & Cryptocurrency
               </h2>
-              <p className=" mb-0 mt-3 fs_xl opacity_07 lineheight_160">
+              <p className=" mb-0 mt-3 fs_xl opacity_07 ff_futura lineheight_160">
                 Nex's blockchain technology and cryptocurrency offer numerous
                 benefits, including autonomy, lower transaction costs, faster
                 transactions, global accessibility, user rewards, economic

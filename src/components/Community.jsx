@@ -51,7 +51,7 @@ const Community = () => {
     <section className=" bg_blue overflow-hidden py-lg-5 position-relative">
       <img src={slidershape} alt="slidershape" className="position-absolute start-0 top-0 slidershape d-none d-lg-block" />
       <Container className="py-5 my-md-5">
-        <div className="text-center pb-lg-5">
+        <div className="text-center pb-lg-5 position-relative z_index1">
           <h2 className="ff_futura text_light_white fs_4x4l fw-normal mb-3 text-capitalize">
             Advantages for the Community
           </h2>

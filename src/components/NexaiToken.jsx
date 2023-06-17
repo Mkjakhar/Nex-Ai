@@ -17,7 +17,7 @@ const NexaiToken = () => {
         alt="zigzag"
       />
       <Container className="py-lg-5 my-5">
-        <div className="text-center pb-5">
+        <div className="text-center pb-5 position-relative z_index1">
           <h2 className="ff_futura fw-normal fs_5x2l text-capitalize text_light_white ">
             Nexai Token & utility
           </h2>
