@@ -325,6 +325,7 @@
 .shape_2_position {
   bottom: -15%;
   right: 0;
+  z-index: 2;
   max-width: 200px;
 }
 .slidershape{
