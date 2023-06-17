@@ -28,9 +28,9 @@
   --fs-xl: 20px;
   --fs-2x4l: 20px;
   --fs-2x8l: 24px;
-  --fs-3xl: 26px;
+  --fs-3xl: 19px;
   --fs-4xl: 20px;
-  --fs-4x4l: 30px;
+  --fs-4x4l: 28px;
   --fs-5x2l: 36px;
   /*  */
   --clr-light-white: #fcfcfc;
@@ -317,6 +317,19 @@
   animation: Svg_move 2s linear 0s infinite alternate-reverse;
 }
 
+.shape_position {
+  max-width: 200px !important;
+  top: -7%;
+}
+
+.shape_2_position {
+  bottom: -15%;
+  right: 0;
+  max-width: 200px;
+}
+.slidershape{
+  max-width: 400px;
+}
 @keyframes Svg_move {
   0% {
     transform: translateY(30%);
@@ -663,7 +676,7 @@
   }
 
   .lineheight_160 {
-    line-height: 160% ;
+    line-height: 160%;
   }
 }
 

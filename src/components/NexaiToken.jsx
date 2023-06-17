@@ -1,9 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import zigzag from "../assets/img/png/zigzag.png";
+
 const NexaiToken = () => {
   return (
     <section className="token_bg py-5 position-relative">
+  
       <img
         className=" position-absolute zigzag_position  start-0"
         src={zigzag}

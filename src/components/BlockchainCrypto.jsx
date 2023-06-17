@@ -1,9 +1,16 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Nextech from "../assets/img/svg/NEXtechnology.svg";
+import shape1 from "../assets/img/svg/Shape1.svg";
 const BlockchainCrypto = () => {
   return (
-    <section className=" py-5">
+    <section className=" py-5 position-relative">
+      {" "}
+      <img
+        className=" shape_position d-lg-block d-none position-absolute start-0"
+        src={shape1}
+        alt="shape1"
+      />
       <Container className=" py-lg-5 my-lg-5">
         <Row className=" py-md-4 justify-content-between align-items-center flex-lg-row flex-column-reverse">
           <Col lg={7}>
@@ -24,7 +31,7 @@ const BlockchainCrypto = () => {
             </div>
           </Col>
           <Col lg={5} md={10} sm={11}>
-            <img  className="w-100 ps-lg-5" src={Nextech} alt="Nextech" />
+            <img className="w-100 ps-lg-5" src={Nextech} alt="Nextech" />
           </Col>
         </Row>
       </Container>

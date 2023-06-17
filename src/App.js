@@ -15,32 +15,25 @@ import GetStarted from "./components/GetStarted";
 import Algorithum from "./components/Algorithum";
 import BackToTop from "./components/BackToTop";
 import LoaderHome from "./components/LoaderHome";
+
 import Token from "./components/Token";
+
+import WhiteList from "../src/components/WhiteList";
+import Community from "./components/Community";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+
 function App() {
   return (
     <>
-      {/* <BackToTop />
-      <LoaderHome />
-      <div className="overflow-hidden">
-        <div className="min_vh_100 d-flex flex-column">
-          <div className="position-relative z_index8">
-            <Header />
-          </div>
-          <div className="d-flex flex-grow-1 justify-content-center">
-            <Hero />
-          </div>
-        </div>
-        <Assistant />
-        <UniqueFeatures />
-        <BlockchainTechnology />
-        <WeDoes />
-        <Lights />
-        <TokanUtility />
-        <Algorithum />
-        <GetStarted />
-        <Footer />
-      </div> */}
-      <Token />
+       <BackToTop />
+     
+
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/tokens" element={<Token />}></Route>
+      </Routes>
+      
     </>
   );
 }

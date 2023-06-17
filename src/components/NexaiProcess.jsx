@@ -1,12 +1,18 @@
 import React from "react";
 import checkbox from "../assets/img/svg/chechbox.svg";
+import shape2 from "../assets/img/svg/Shape2.svg";
 const NexaiProcess = () => {
   return (
-    <section>
+    <section className="pb-lg-5 position-relative">
+      <img
+        className="shape_2_position position-absolute d-none d-lg-block"
+        src={shape2}
+        alt="shape2"
+      />
       <h2 className=" fs_4x4l pb-5 text_dark_black ff_futura fw-normal text-center text-capitalize">
         nexAi tokens process
       </h2>
-      <div className="height_750 overflow-scroll">
+      <div className="height_750 overflow-scroll mb-5">
         <div className="processcommon_box pink_box cursor_pointer">
           <img className=" w_54" src={checkbox} alt="checkbox" />
           <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
