@@ -15,11 +15,12 @@ import GetStarted from "./components/GetStarted";
 import Algorithum from "./components/Algorithum";
 import BackToTop from "./components/BackToTop";
 import LoaderHome from "./components/LoaderHome";
-
+import WhiteList from "../src/components/WhiteList";
+import Community from "./components/Community";
 function App() {
   return (
     <>
-      <BackToTop />
+      {/* <BackToTop />
       <LoaderHome />
       <div className="overflow-hidden">
         <div className="min_vh_100 d-flex flex-column">
@@ -36,10 +37,12 @@ function App() {
         <WeDoes />
         <Lights />
         <TokanUtility />
-        <Algorithum />
-        <GetStarted />
-        <Footer />
-      </div>
+        <Algorithum /> */}
+      <Community />
+      <WhiteList />
+      <GetStarted />
+      <Footer />
+      {/* </div> */}
     </>
   );
 }
