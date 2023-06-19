@@ -30,7 +30,6 @@ const BlockchainCrypto = () => {
             </div>
           </Col>
           <Col
-            lg={7}
             data-aos="zoom-in"
             data-aos-duration="1300"
             data-aos-delay="200"

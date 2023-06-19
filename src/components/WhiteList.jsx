@@ -12,13 +12,11 @@ function WhiteList() {
         />
         <div className="container position-relative z_index3">
           <div
-            lg={7}
             data-aos="fade-down"
             data-aos-duration="1300"
             className="d-flex flex-column align-items-center justify-content-center "
           >
             <h2
-              lg={7}
               data-aos="fade-left"
               data-aos-duration="1300"
               data-aos-delay="300"

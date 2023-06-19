@@ -56,7 +56,6 @@ const Community = () => {
       />
       <Container className="py-5 my-md-5">
         <div
-          lg={7}
           data-aos="fade-down"
           data-aos-duration="1300"
           className="text-center pb-lg-5 position-relative z_index1"
@@ -70,7 +69,7 @@ const Community = () => {
           </p>
         </div>
         <Slider {...settings} className="token_page_slider py-4 py-lg-5">
-          <div lg={7} data-aos="flip-left" data-aos-duration="1300">
+          <div data-aos="flip-left" data-aos-duration="1300">
             <h3 className="ff_futura fw-normal fs_3xl text-capitalize text_light_white">
               Rewards and Incentives
             </h3>
@@ -91,7 +90,6 @@ const Community = () => {
             </p>
           </div>
           <div
-            lg={7}
             data-aos="flip-left"
             data-aos-duration="1300"
             data-aos-delay="200"
@@ -120,7 +118,6 @@ const Community = () => {
             </p>
           </div>
           <div
-            lg={7}
             data-aos="flip-left"
             data-aos-duration="1300"
             data-aos-delay="400"

@@ -12,7 +12,6 @@ const NexaiProcess = () => {
           alt="shape2"
         />
         <h2
-          lg={7}
           data-aos="fade-left"
           data-aos-duration="1300"
           className="fs_4x4l pb-lg-5 pb-3 mb-0 text_dark_black ff_futura fw-normal text-center text-capitalize"
@@ -21,7 +20,6 @@ const NexaiProcess = () => {
         </h2>
         <div className="height_750 overflow-scroll mb-5">
           <div
-            lg={7}
             data-aos="flip-up"
             data-aos-duration="1300"
             className="processcommon_box pink_box cursor_pointer"
@@ -39,7 +37,7 @@ const NexaiProcess = () => {
               payment system.
             </p>
           </div>
-          <div lg={7} className="processcommon_box green_box cursor_pointer">
+          <div className="processcommon_box green_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Accessing Exclusive Content
@@ -52,7 +50,7 @@ const NexaiProcess = () => {
               capabilities of Nexai's ecosystem.
             </p>
           </div>
-          <div lg={7} className="processcommon_box purple_box cursor_pointer">
+          <div className="processcommon_box purple_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Loyalty and Rewards
@@ -67,7 +65,7 @@ const NexaiProcess = () => {
               continued involvement.
             </p>
           </div>
-          <div lg={7} className="processcommon_box yellow_box cursor_pointer">
+          <div className="processcommon_box yellow_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Participating in Governance
@@ -81,7 +79,7 @@ const NexaiProcess = () => {
               direction of the Nexai ecosystem.
             </p>
           </div>
-          <div lg={7} className="processcommon_box pink_box cursor_pointer">
+          <div className="processcommon_box pink_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Peer-to-Peer Transactions
@@ -95,7 +93,7 @@ const NexaiProcess = () => {
               ecosystem, all with the utmost security and convenience.
             </p>
           </div>
-          <div lg={7} className="processcommon_box green_box cursor_pointer">
+          <div className="processcommon_box green_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Token Staking and Rewards
