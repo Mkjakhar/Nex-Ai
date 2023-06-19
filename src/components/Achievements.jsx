@@ -20,7 +20,7 @@ const Achievements = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="1500"
-            className=" ff_futura width_730px mb-0 pb-2 text-center fw-normal text_dark_black fs_md mx-auto mt-3  "
+            className=" ff_futura width_730px mb-0 pb-2 op07 text-center fw-normal text_dark_black fs_md mx-auto mt-3  "
           >
             Donec cursus eget eleifend aliquam ultrices turpis. Nunc diam tellus
             turpis arcu. Nulla magna lobortis leo tristique nam commodo. Massa

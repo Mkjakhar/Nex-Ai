@@ -45,7 +45,7 @@ const NexFor = () => {
         </Container>
         <div className="position-relative">
           <Container className="pb-lg-5">
-            <Row className="justify-content-center">
+            <Row className="justify-content-center position-relative">
               <Col md={10} xl={9}>
                 <Slider className="algo_slider" ref={algoSlider} {...settings}>
                   {nexfordata.map((data) => {
