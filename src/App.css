@@ -218,6 +218,22 @@
     left: 0;
   }
 }
+.zigzag_animation {
+  top: 0;
+  left: 0;
+  animation: zigzag 8s linear 0s infinite alternate-reverse;
+}
+
+@keyframes zigzag {
+  0% {
+    left: -30%;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
 
 @media (min-width: 575.9px) {
   .Pos_FLower_Unique {
