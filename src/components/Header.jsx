@@ -39,14 +39,11 @@ function Header(props) {
               <div className={navShow ? "falseline3 " : "threelinechild"}></div>
             </div>
             <ul className="mb-0 p-0 d-flex gap-xl-5 gap-4 d-none d-lg-flex">
-              <li className="ms-lg-3">
-                <Link
-                  style={{ letterSpacing: "0.23em" }}
-                  to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
-                >
-                  Marketplace
-                </Link>
+              <li
+                style={{ letterSpacing: "0.23em", cursor: "pointer" }}
+                className="ms-lg-3 ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
+              >
+                Marketplace
               </li>
               <li className="ms-lg-3">
                 <Link
@@ -57,14 +54,11 @@ function Header(props) {
                   About
                 </Link>
               </li>
-              <li className="ms-lg-3">
-                <Link
-                  style={{ letterSpacing: "0.23em" }}
-                  to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
-                >
-                  NexChat
-                </Link>
+              <li
+                style={{ letterSpacing: "0.23em", cursor: "pointer" }}
+                className="ms-lg-3 f_futura fw-normal fs_sm text_light_white transition300 hover_effact_link opacity_07 text-uppercase"
+              >
+                NexChat
               </li>
               <li className="ms-lg-3">
                 <Link
@@ -90,15 +84,12 @@ function Header(props) {
             }
           >
             <ul className="mb-0 p-0 d-flex gap-4 flex-column justify-content-center align-items-center">
-              <li className="ms-lg-4">
-                <Link
-                  onClick={() => setNavShow(!navShow)}
-                  style={{ letterSpacing: "0.23em" }}
-                  to="/Marketplace"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
-                >
-                  Marketplace
-                </Link>
+              <li
+                onClick={() => setNavShow(!navShow)}
+                style={{ letterSpacing: "0.23em" }}
+                className="ms-lg-4 ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+              >
+                Marketplace
               </li>
               <li className="ms-lg-4">
                 <Link
@@ -110,15 +101,12 @@ function Header(props) {
                   About
                 </Link>
               </li>
-              <li className="ms-lg-4">
-                <Link
-                  onClick={() => setNavShow(!navShow)}
-                  style={{ letterSpacing: "0.23em" }}
-                  to="/NexChat"
-                  className="ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
-                >
-                  NexChat
-                </Link>
+              <li
+                onClick={() => setNavShow(!navShow)}
+                style={{ letterSpacing: "0.23em" }}
+                className="ms-lg-4 ff_futura fw-normal fs_sm text_light_white transition300 hover_effact_link text-uppercase"
+              >
+                NexChat
               </li>
               <li className="ms-lg-4">
                 <Link

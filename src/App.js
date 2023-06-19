@@ -10,12 +10,9 @@ import Home from "./components/Home";
 import About from "./components/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Achievements from "./components/Achievements";
-import OurTeam from "./components/OurTeam";
-
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
 
   return (

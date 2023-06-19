@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/img/svg/footer-logo.svg";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -81,12 +82,12 @@ function Footer() {
                     </h3>
                     <div className="d-flex  flex-column gap-2">
                       <span className="mt-1">
-                        <a
+                        <Link
                           className="hover_effact_link ff_futura fw-normal fs_sm text_dark_black op07"
-                          href="#"
+                          to="/"
                         >
                           Home
-                        </a>
+                        </Link>
                       </span>
                       <span className="mt-1">
                         <a
@@ -105,12 +106,12 @@ function Footer() {
                         </a>
                       </span>
                       <span className="mt-1">
-                        <a
+                        <Link
+                          to="/Tokens"
                           className="hover_effact_link ff_futura fw-normal fs_sm text_dark_black op07"
-                          href="#"
                         >
                           Tokens
-                        </a>
+                        </Link>
                       </span>
                       <span className="mt-1">
                         <a
@@ -121,12 +122,12 @@ function Footer() {
                         </a>
                       </span>
                       <span className="mt-1">
-                        <a
+                        <Link
+                          to="/About"
                           className="hover_effact_link ff_futura fw-normal fs_sm text_dark_black op07"
-                          href="#"
                         >
                           About
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
