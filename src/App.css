@@ -171,6 +171,9 @@
   width: 300px;
   animation: FlowerPos2 10s ease-in-out 0s infinite alternate-reverse;
 }
+.max_w_775px {
+  max-width: 775px;
+}
 
 @keyframes FlowerPos2 {
   0% {
@@ -200,7 +203,8 @@
   height: 300px;
   top: 0;
   left: 0;
-  animation: Shinewave_img__BLockCahin 8s ease-in-out 0s infinite alternate-reverse;
+  animation: Shinewave_img__BLockCahin 8s ease-in-out 0s infinite
+    alternate-reverse;
 }
 
 @keyframes Shinewave_img__BLockCahin {
@@ -268,9 +272,11 @@
   z-index: 2;
   height: 100%;
   width: 60%;
-  background: linear-gradient(270deg,
-      #020b1a 50.06%,
-      rgba(2, 11, 26, 0) 97.25%);
+  background: linear-gradient(
+    270deg,
+    #020b1a 50.06%,
+    rgba(2, 11, 26, 0) 97.25%
+  );
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -336,7 +342,7 @@
   display: flex !important;
 }
 
-.algo_slider .slick-slide>div {
+.algo_slider .slick-slide > div {
   display: flex;
 }
 
@@ -478,22 +484,22 @@
 }
 
 .pink_box {
-  background: #FFF7F7;
+  background: #fff7f7;
   border: 1px solid transparent;
 }
 
 .green_box {
-  background: #EDFFEF;
+  background: #edffef;
   border: 1px solid transparent;
 }
 
 .purple_box {
-  background: #F5F6FF;
+  background: #f5f6ff;
   border: 1px solid transparent;
 }
 
 .yellow_box {
-  background: #FFFDEA;
+  background: #fffdea;
   border: 1px solid transparent;
 }
 
@@ -515,6 +521,13 @@
 
 .w_54 {
   max-width: 54px;
+}
+.security_text_bg {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+}
+.w-88 {
+  width: 88%;
 }
 
 @media (min-width: 768.1px) {
@@ -582,12 +595,18 @@
   .Shinewave_img__BLockCahin {
     height: 599px;
   }
-
+  .security_pos_flower {
+    max-width: 130px;
+    left: 0;
+    bottom: -58%;
+  }
   .light_slider_para {
     max-width: 370px;
     padding-left: unset;
   }
-
+  .max_w_503px {
+    max-width: 503px;
+  }
   .light_arrows span:first-child {
     position: absolute;
     top: 50%;
@@ -617,7 +636,11 @@
     left: -18%;
     width: 500px;
   }
-
+  .security_pos_flower {
+    max-width: 150px;
+    left: 0;
+    bottom: -58%;
+  }
   .min_vh_100 {
     min-height: 100vh;
   }

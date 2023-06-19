@@ -6,6 +6,7 @@ import BackToTop from "./components/BackToTop";
 import Token from "./components/Token";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/tokens" element={<Token />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
     </>
   );

@@ -349,3 +349,36 @@ export const algorithumData = [
     Para: "Nex utilizes optimization algorithms, including Task Scheduling Algorithm (TSA) and Resource Allocation Algorithm (RAA), to handle and optimize various tasks and resource This provides users with a smoother and more efficient daily experience by managing meeting scheduling, task management, and resource planning.",
   },
 ];
+// nex for data
+export const nexfordata = [
+  {
+    Index: "0",
+    Heading: "Tech Enthusiasts",
+    Para: "Nex appeals to technology enthusiasts who embrace the latest advancements and enjoy exploring innovative solutions. These individuals appreciate the power of artificial intelligence (AI) and seek to incorporate it into their everyday routines. Nex provides them with a platform to leverage AI capabilities and seamlessly integrate their smart devices for a connected home experience.",
+  },
+  {
+    Index: "1",
+    Heading: "Homeowners and Renters",
+    Para: "Whether you own or rent your living space, Nex offers an adaptable solution for enhancing your home environment. Its versatility allows homeowners to fully customize their smart home setup, while renters can also benefit from the convenience and security features without making permanent installations.",
+  },
+  {
+    Index: "2",
+    Heading: "Safety-Conscious Individuals",
+    Para: "For those who prioritize home security, Nex provides an unparalleled level of protection. Its advanced sensors, surveillance cameras, and AI-driven algorithms constantly monitor the surroundings, detecting any potential threats or suspicious activities. This ensures the safety and well-being of residents, providing peace of mind both at home and when away.",
+  },
+  {
+    Index: "3",
+    Heading: "Busy Professionals",
+    Para: "Nex caters to busy professionals who are constantly on the move. Its remote access capabilities allow them to control and monitor their home environment from anywhere in the world. Whether it's adjusting thermostat settings, checking surveillance camera feeds, or receiving real-time notifications, Nex keeps professionals connected and in control, saving time and simplifying their lives.",
+  },
+  {
+    Index: "4",
+    Heading: "Elderly and Disabled Individuals",
+    Para: "Nex's user-friendly interface and voice-activated commands make it accessible to elderly and disabled individuals. It serves as a personal assistant, helping with daily tasks, such as controlling lighting, adjusting temperature, and providing reminders. Nex enhances their independence and improves their overall quality of life.",
+  },
+  {
+    Index: "5",
+    Heading: "Families",
+    Para: "Nex is ideal for families looking to create a smart and secure home environment. With its comprehensive security features, parents can have peace of mind knowing that their children and belongings are protected. Nex's intuitive controls and automation capabilities also make it easier for families to manage household tasks and routines.",
+  },
+];

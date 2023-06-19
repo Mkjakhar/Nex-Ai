@@ -15,7 +15,10 @@ const Token = () => {
     <div className="overflow-hidden">
       <LoaderHome />
       <Header />
-      <NexaiToken />
+      <NexaiToken
+        para="Etiam viverra nec libero a. A id id tempus molestie sed."
+        heading="Nexai Token & utility"
+      />
       <BlockchainCrypto />
       <NexaiProcess />
       <Community />
