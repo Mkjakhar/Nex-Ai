@@ -246,7 +246,7 @@
 }
 
 .op07 {
-  opacity: 0.7;
+  opacity: 0.7 !important;
 }
 
 .heading_common {
