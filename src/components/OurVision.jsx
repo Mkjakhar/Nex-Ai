@@ -4,19 +4,19 @@ function OurVision() {
     <>
       <section className="pt-sm-5 pb-sm-5 position-relative d-flex justify-content-center align-items-center">
         <div className="container py-lg-5 pt-4 position-relative z_index3">
-          <div className="d-flex  flex-column py-5 align-items-center justify-content-center ">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="d-flex flex-column py-5 align-items-center justify-content-center "
+          >
             <h2
               data-aos="fade-right"
-              data-aos-duration="1500"
+              data-aos-duration="1200"
               className="heading_common text_dark_black text-center text-capitalize mb-0 wedoesHead"
             >
               OurVision
             </h2>
-            <p
-              data-aos="fade-left"
-              data-aos-duration="1500"
-              className="ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2  pb-3 wedoesPara"
-            >
+            <p className="ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2  pb-3 wedoesPara">
               Mattis eget congue integer consequat quis aliquam. Nullam
               fringilla in pulvinar ullamcorper. Arcu
               <span className="d-lg-block">

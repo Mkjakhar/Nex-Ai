@@ -186,7 +186,7 @@
 }
 
 .btn_main:hover {
-  transform: scale(1.08);
+  transform: scale(1.03);
   animation: Btn_MainBg 3s ease-in-out 0s infinite alternate;
 }
 
