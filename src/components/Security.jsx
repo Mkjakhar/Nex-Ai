@@ -4,7 +4,7 @@ import securityimg from "../assets/img/svg/hardwareimg.svg";
 import flowershape from "../assets/img/svg/securityshape.svg";
 const Security = () => {
   return (
-    <section className="pt-5 position-relative">
+    <section className="pt-md-5 pt-4 position-relative">
       <img
         src={flowershape}
         alt="shapeflower"
@@ -12,7 +12,7 @@ const Security = () => {
       />
       <Container className="pt-sm-5 mt-xl-5">
         <Row className="justify-content-between pb-xl-5 pt-5 pt-lg-0 align-items-center align-items-xxl-start flex-column-reverse flex-lg-row text-center text-lg-start">
-          <Col md={11} lg={6} className="pt-5 pt-lg-0">
+          <Col md={11} lg={6} className="pt-4 pt-lg-0">
             <h2 className="ff_futura fw-normal fs_4x4l text_dark_black mb-3">
               Home Security System
               <span className="d-lg-block"> and Hardware</span>

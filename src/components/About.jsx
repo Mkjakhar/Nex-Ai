@@ -7,6 +7,8 @@ import Header from "./Header";
 import NexaiToken from "./NexaiToken";
 import OurVision from "./OurVision";
 import Security from "./Security";
+import Achievements from "./Achievements";
+import OurTeam from "./OurTeam";
 
 const About = () => {
   return (
@@ -19,6 +21,8 @@ const About = () => {
       />
       <Security />
       <OurVision />
+      <OurTeam />
+      <Achievements />
       <NexFor />
 
       <GetStarted />

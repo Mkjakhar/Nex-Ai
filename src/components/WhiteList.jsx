@@ -11,8 +11,17 @@ function WhiteList() {
           alt="Shapr_flower"
         />
         <div className="container position-relative z_index3">
-          <div className="d-flex flex-column align-items-center justify-content-center ">
-            <h2 className="heading_common text_dark_black text-center text-capitalize mb-0 wedoesHead">
+          <div
+            data-aos="fade-down"
+            data-aos-duration="1300"
+            className="d-flex flex-column align-items-center justify-content-center "
+          >
+            <h2
+              data-aos="fade-left"
+              data-aos-duration="1300"
+              data-aos-delay="300"
+              className="heading_common text_dark_black text-center text-capitalize mb-0 wedoesHead"
+            >
               Whitelist & Presale
             </h2>
             <p className="ff_futura fw-normal fs_md text_dark_black text-center op07 mb-0 mt-2 pb-3 wedoesPara">

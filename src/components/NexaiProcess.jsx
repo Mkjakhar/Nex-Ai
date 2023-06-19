@@ -11,11 +11,19 @@ const NexaiProcess = () => {
           src={shape2}
           alt="shape2"
         />
-        <h2 className=" fs_4x4l pb-lg-5 pb-3 mb-0 text_dark_black ff_futura fw-normal text-center text-capitalize">
+        <h2
+          data-aos="fade-left"
+          data-aos-duration="1300"
+          className="fs_4x4l pb-lg-5 pb-3 mb-0 text_dark_black ff_futura fw-normal text-center text-capitalize"
+        >
           nexAi tokens process
         </h2>
         <div className="height_750 overflow-scroll mb-5">
-          <div className="processcommon_box pink_box cursor_pointer">
+          <div
+            data-aos="flip-up"
+            data-aos-duration="1300"
+            className="processcommon_box pink_box cursor_pointer"
+          >
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Purchasing Nexai Products
@@ -28,7 +36,7 @@ const NexaiProcess = () => {
               tokens, enjoying the convenience and flexibility of a token-based
               payment system.
             </p>
-          </div>{" "}
+          </div>
           <div className="processcommon_box green_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
@@ -41,7 +49,7 @@ const NexaiProcess = () => {
               services, enabling users to fully explore and enjoy the enhanced
               capabilities of Nexai's ecosystem.
             </p>
-          </div>{" "}
+          </div>
           <div className="processcommon_box purple_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
@@ -56,7 +64,7 @@ const NexaiProcess = () => {
               offers, fostering a strong sense of loyalty and encouraging
               continued involvement.
             </p>
-          </div>{" "}
+          </div>
           <div className="processcommon_box yellow_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
@@ -70,7 +78,7 @@ const NexaiProcess = () => {
               actively contribute to shaping the future development and
               direction of the Nexai ecosystem.
             </p>
-          </div>{" "}
+          </div>
           <div className="processcommon_box pink_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
@@ -84,7 +92,7 @@ const NexaiProcess = () => {
               activities, or conducting value exchanges directly within the
               ecosystem, all with the utmost security and convenience.
             </p>
-          </div>{" "}
+          </div>
           <div className="processcommon_box green_box cursor_pointer">
             <img className=" w_54" src={checkbox} alt="checkbox" />
             <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
