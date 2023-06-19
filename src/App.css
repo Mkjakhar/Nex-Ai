@@ -554,7 +554,12 @@
     margin-left: 24px;
     margin-right: 24px;
   }
-
+  .nexfor_next_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4%;
+  }
   .min_h_wedose_custom {
     min-height: 708px;
   }

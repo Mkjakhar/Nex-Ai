@@ -21,6 +21,7 @@ const NexaiToken = (props) => {
         >
           <h2
             data-aos="zoom-in"
+            data-aos-duration="1500"
             className="ff_futura fw-normal fs_5x2l text-capitalize text_light_white "
           >
             {props.heading}

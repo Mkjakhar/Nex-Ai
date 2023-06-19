@@ -16,6 +16,7 @@ const Security = () => {
             md={11}
             lg={6}
             data-aos="fade-down-right"
+            data-aos-duration="1500"
             className="pt-4 pt-lg-0"
           >
             <h2 className="ff_futura fw-normal fs_4x4l text_dark_black mb-3">
@@ -47,6 +48,7 @@ const Security = () => {
             md={11}
             lg={6}
             data-aos="fade-down-left"
+            data-aos-duration="2000"
             className="text-center text-lg-end"
           >
             <div className="position-relative max_w_503px ms-auto">
