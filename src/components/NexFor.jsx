@@ -27,7 +27,7 @@ const NexFor = () => {
           alt="Pos_FLower_Unique"
         />
         <Container className="pt-md-4 position-relative mt-lg-5 pb-lg-5">
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" data-aos-duration="1500">
             <h2 className="mb-3 heading_common text-center text_light_white alogoHeading">
               Who is Nex for.
             </h2>
@@ -64,15 +64,19 @@ const NexFor = () => {
                   })}
                 </Slider>
               </Col>
+              <div className="d-flex align-items-center aglo_arrows gap-5 justify-content-center">
+                <span onClick={() => algoSlider.current.slickPrev()}>
+                  <img className="w-100" src={sliderArrow} alt="sliderArrow" />
+                </span>
+                <span onClick={() => algoSlider.current.slickNext()}>
+                  <img
+                    className="w-100 nexfor_next_arrow "
+                    src={sliderArrow}
+                    alt="sliderArrow"
+                  />
+                </span>
+              </div>
             </Row>
-            <div className="d-flex align-items-center aglo_arrows gap-5 justify-content-center">
-              <span onClick={() => algoSlider.current.slickPrev()}>
-                <img className="w-100" src={sliderArrow} alt="sliderArrow" />
-              </span>
-              <span onClick={() => algoSlider.current.slickNext()}>
-                <img className="w-100" src={sliderArrow} alt="sliderArrow" />
-              </span>
-            </div>
           </Container>
         </div>
       </section>
