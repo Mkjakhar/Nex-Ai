@@ -13,7 +13,7 @@ import OurTeam from "./OurTeam";
 const About = () => {
   return (
     <div className="overflow-hidden">
-      {/* <LoaderHome /> */}
+      <LoaderHome />
       <Header />
       <NexaiToken
         heading="The Nexai for best ai-assistant experience"
