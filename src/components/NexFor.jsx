@@ -27,19 +27,21 @@ const NexFor = () => {
           alt="Pos_FLower_Unique"
         />
         <Container className="pt-md-4 position-relative mt-lg-5 pb-lg-5">
-          <h2 className="mb-3 heading_common text-center text_light_white alogoHeading">
-            Who is Nex for.
-          </h2>
-          <p className="text-center peragraph_common text_light_white opacity_07 alogoPara">
-            Nex is an innovative technology designed to cater to a wide range of
-            individuals and households
-            <span className="d-xl-block">
-              who value convenience, security, and connectivity in their daily
-              lives. Its advanced features and
-            </span>
-            intuitive interface make it accessible and beneficial for various
-            user groups.
-          </p>
+          <div data-aos="zoom-in">
+            <h2 className="mb-3 heading_common text-center text_light_white alogoHeading">
+              Who is Nex for.
+            </h2>
+            <p className="text-center peragraph_common text_light_white opacity_07 alogoPara">
+              Nex is an innovative technology designed to cater to a wide range
+              of individuals and households
+              <span className="d-xl-block">
+                who value convenience, security, and connectivity in their daily
+                lives. Its advanced features and
+              </span>
+              intuitive interface make it accessible and beneficial for various
+              user groups.
+            </p>
+          </div>
         </Container>
         <div className="position-relative">
           <Container className="pb-lg-5">

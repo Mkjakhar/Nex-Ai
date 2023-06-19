@@ -12,7 +12,12 @@ const Security = () => {
       />
       <Container className="pt-sm-5 mt-xl-5">
         <Row className="justify-content-between pb-xl-5 pt-5 pt-lg-0 align-items-center align-items-xxl-start flex-column-reverse flex-lg-row text-center text-lg-start">
-          <Col md={11} lg={6} className="pt-4 pt-lg-0">
+          <Col
+            md={11}
+            lg={6}
+            data-aos="fade-down-right"
+            className="pt-4 pt-lg-0"
+          >
             <h2 className="ff_futura fw-normal fs_4x4l text_dark_black mb-3">
               Home Security System
               <span className="d-lg-block"> and Hardware</span>
@@ -38,7 +43,12 @@ const Security = () => {
               and even handle bill payments.
             </p>
           </Col>
-          <Col md={11} lg={6} className="text-center text-lg-end">
+          <Col
+            md={11}
+            lg={6}
+            data-aos="fade-down-left"
+            className="text-center text-lg-end"
+          >
             <div className="position-relative max_w_503px ms-auto">
               <p className="ff_futura fw-normal text-start fs_xl font_italic text_light_white security_text_bg position-absolute px-3 bottom-0 start-0 mb-0 w-88">
                 It can take the initiative to ask about your day, schedule

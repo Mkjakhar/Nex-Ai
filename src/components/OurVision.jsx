@@ -4,7 +4,10 @@ function OurVision() {
     <>
       <section className="pt-sm-5 pb-sm-5 position-relative d-flex justify-content-center align-items-center">
         <div className="container py-lg-5 pt-4 position-relative z_index3">
-          <div className="d-flex flex-column py-5 align-items-center justify-content-center ">
+          <div
+            data-aos="flip-left"
+            className="d-flex  flex-column py-5 align-items-center justify-content-center "
+          >
             <h2 className="heading_common text_dark_black text-center text-capitalize mb-0 wedoesHead">
               OurVision
             </h2>

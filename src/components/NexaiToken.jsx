@@ -19,7 +19,10 @@ const NexaiToken = (props) => {
         <div
           className={`text-center pb-5 ${props.maxwidth} mx-auto position-relative z_index1`}
         >
-          <h2 className="ff_futura fw-normal fs_5x2l text-capitalize text_light_white ">
+          <h2
+            data-aos="zoom-in"
+            className="ff_futura fw-normal fs_5x2l text-capitalize text_light_white "
+          >
             {props.heading}
           </h2>
           <p className="ff_futura mb-0 mt-3 fw-normal fs_md text_light_white">

@@ -19,7 +19,7 @@ const OurTeam = () => {
         className="position-absolute  end-0 our_team_right_shape_pos"
       />
       <Container className="py-lg-5 my-xl-3 mb-5 position-relative z-2">
-        <div className="text-center pt-1">
+        <div data-aos="flip-left" className="text-center pt-1">
           <h2 className=" ff_futura fw-normal fs_4x4l text_light_white text-capitalize">
             Our team
           </h2>
@@ -30,7 +30,10 @@ const OurTeam = () => {
         </div>
         <Row className="pt-2 justify-content-center">
           <Col lg={4} sm={6}>
-            <div className="team_box overflow-hidden cursor_pointer me-1 d-flex flex-column justify-content-end">
+            <div
+              data-aos="fade-right"
+              className="team_box overflow-hidden cursor_pointer me-1 d-flex flex-column justify-content-end"
+            >
               <img className="w-100 px-4 pt-4 height_300" src={ceo} alt="ceo" />
               <div className="bg_light_white whitebox transition300 py-3 d-flex align-items-center justify-content-between px-4">
                 <div className=" transition250">
@@ -61,7 +64,10 @@ const OurTeam = () => {
             </div>
           </Col>{" "}
           <Col lg={4} sm={6}>
-            <div className="mt-4 mt-sm-0 team_box overflow-hidden cursor_pointer mx-1 d-flex flex-column justify-content-end">
+            <div
+              data-aos="fade-up"
+              className="mt-4 mt-sm-0 team_box overflow-hidden cursor_pointer mx-1 d-flex flex-column justify-content-end"
+            >
               <img
                 className="w-100 px-4 pt-4 height_300"
                 src={founder}
@@ -96,7 +102,10 @@ const OurTeam = () => {
             </div>
           </Col>{" "}
           <Col lg={4} sm={6} className="pt-4 pt-sm-0 ">
-            <div className="team_box mt-4 mt-lg-0  overflow-hidden cursor_pointer ms-1 d-flex flex-column justify-content-end">
+            <div
+              data-aos="fade-left"
+              className="team_box mt-4 mt-lg-0  overflow-hidden cursor_pointer ms-1 d-flex flex-column justify-content-end"
+            >
               <img
                 className="w-100 px-4 pt-4 height_300"
                 src={developer}

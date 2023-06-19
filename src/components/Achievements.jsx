@@ -9,7 +9,7 @@ const Achievements = () => {
   return (
     <section className="py-5 ">
       <Container className=" py-lg-5 my-lg-5">
-        <div>
+        <div data-aos="flip-up">
           <h2 className=" ff_futura text-capitalize text-center fw-normal text_dark_black fs_4x4l">
             our Achievements
           </h2>
@@ -20,7 +20,7 @@ const Achievements = () => {
           </p>
         </div>
         <Row className=" justify-content-center  pt-md-5 pt-4 mt-lg-4">
-          <Col xl={4} md={6} sm={10}>
+          <Col xl={4} md={6} sm={10} data-aos="fade-down-right">
             <div className="achievement_boxcommon me-md-2 achievement_box1 text-center cursor_pointer">
               <img src={redmen} alt="redmen" />
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
@@ -31,7 +31,7 @@ const Achievements = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xl={4} md={6} sm={10}>
+          <Col xl={4} md={6} sm={10} data-aos="fade-down">
             <div className="achievement_box2 mx-md-2 achievement_boxcommon text-center cursor_pointer">
               <img src={greenmsg} alt="greenmsg" />
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
@@ -42,7 +42,7 @@ const Achievements = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xl={4} md={6} sm={10}>
+          <Col xl={4} md={6} sm={10} data-aos="fade-down-left">
             <div className="achievement_box3 ms-xl-2 me-md-2 achievement_boxcommon text-center cursor_pointer">
               <img src={yellowmens} alt="yellowmens" />
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
@@ -53,7 +53,7 @@ const Achievements = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xl={4} md={6} sm={10}>
+          <Col xl={4} md={6} sm={10} data-aos="fade-up-right">
             <div className="achievement_box4 me-xl-2 ms-md-2 achievement_boxcommon text-center cursor_pointer">
               <img src={pinkhand} alt="pinkhand" />
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
@@ -64,7 +64,7 @@ const Achievements = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xl={4} md={6} sm={10}>
+          <Col xl={4} md={6} sm={10} data-aos="fade-up-left">
             <div className="achievement_box5 ms-md-2 achievement_boxcommon text-center cursor_pointer">
               <img src={bluecup} alt="bluecup" />
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
