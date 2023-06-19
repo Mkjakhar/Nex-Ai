@@ -3,11 +3,22 @@ import { Col, Container, Row } from "react-bootstrap";
 import ceo from "../assets/img/svg/ceo.svg";
 import founder from "../assets/img/svg/founder.svg";
 import developer from "../assets/img/svg/developer.svg";
-
+import leftshape from "../assets/img/svg/ourteamleftshape.svg";
+import rightshape from "../assets/img/svg/ourteamrightshape.svg";
 const OurTeam = () => {
   return (
-    <section className=" bg_blue py-5 ">
-      <Container className="py-lg-5 my-xl-3 mb-5">
+    <section className=" bg_blue py-5 position-relative">
+      <img
+        src={leftshape}
+        alt="leftshape"
+        className="position-absolute start-0 our_team_right_shape_pos"
+      />
+      <img
+        src={rightshape}
+        alt="rightshape"
+        className="position-absolute  end-0 our_team_right_shape_pos"
+      />
+      <Container className="py-lg-5 my-xl-3 mb-5 position-relative z-2">
         <div className="text-center pt-1">
           <h2 className=" ff_futura fw-normal fs_4x4l text_light_white text-capitalize">
             Our team

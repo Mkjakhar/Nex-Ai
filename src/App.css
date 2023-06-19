@@ -539,7 +539,16 @@
 .w-88 {
   width: 88%;
 }
-
+.our_team_left_shape_pos {
+  max-width: 248px;
+  z-index: 1;
+  top: -23% !important;
+}
+.our_team_right_shape_pos {
+  max-width: 150px;
+  bottom: 0%;
+  z-index: 1;
+}
 @media (min-width: 768.1px) {
   .token_page_slider .slick-slide div {
     margin-left: 24px;
@@ -605,6 +614,11 @@
 @media (min-width: 991.9px) {
   .Shinewave_img__BLockCahin {
     height: 599px;
+  }
+  .our_team_right_shape_pos {
+    max-width: 169px;
+    bottom: -31%;
+    z-index: 1;
   }
   .security_pos_flower {
     max-width: 130px;

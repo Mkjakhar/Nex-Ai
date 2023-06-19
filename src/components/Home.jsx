@@ -11,7 +11,6 @@ import TokanUtility from "./TokanUtility";
 import Algorithum from "./Algorithum";
 import GetStarted from "./GetStarted";
 import Footer from "./Footer";
-
 const Home = () => {
   return (
     <div>
