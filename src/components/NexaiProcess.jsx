@@ -2,14 +2,15 @@ import React from "react";
 import checkbox from "../assets/img/svg/chechbox.svg";
 import shape2 from "../assets/img/svg/Shape2.svg";
 import { Container } from "react-bootstrap";
+import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 const NexaiProcess = () => {
   return (
     <section className="pb-lg-5 position-relative">
       <Container>
         <img
-          className="shape_2_position position-absolute d-none d-lg-block"
-          src={shape2}
-          alt="shape2"
+          className="Pos_FLower_Unique2 position-absolute z_index4 "
+          src={Pos_FLower_Unique}
+          alt="Pos_FLower_Unique"
         />
         <h2
           data-aos="fade-left"

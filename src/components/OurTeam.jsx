@@ -4,20 +4,26 @@ import ceo from "../assets/img/svg/ceo.svg";
 import founder from "../assets/img/svg/founder.svg";
 import developer from "../assets/img/svg/developer.svg";
 import leftshape from "../assets/img/svg/ourteamleftshape.svg";
-import rightshape from "../assets/img/svg/ourteamrightshape.svg";
+
+import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 const OurTeam = () => {
   return (
     <section className=" bg_blue py-5 position-relative">
       <img
         src={leftshape}
         alt="leftshape"
-        className="position-absolute start-0 our_team_right_shape_pos"
+        className="position-absolute start-0 our_team_left_shape_pos z-1"
       />
       <img
+        className="Pos_FLower_Unique2 position-absolute z-1 "
+        src={Pos_FLower_Unique}
+        alt="Pos_FLower_Unique"
+      />
+      {/* <img
         src={rightshape}
         alt="rightshape"
         className="position-absolute  end-0 our_team_right_shape_pos"
-      />
+      /> */}
       <Container className="py-lg-5 my-xl-3 mb-5 position-relative z-2">
         <div className="text-center pt-1">
           <h2
