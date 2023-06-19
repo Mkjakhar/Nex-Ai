@@ -8,10 +8,12 @@ import Algorithum from "./Algorithum";
 import WhiteList from "./WhiteList";
 import GetStarted from "./GetStarted";
 import Footer from "./Footer";
+import LoaderHome from "./LoaderHome";
 
 const Token = () => {
   return (
     <div className="overflow-hidden">
+      <LoaderHome />
       <Header />
       <NexaiToken />
       <BlockchainCrypto />

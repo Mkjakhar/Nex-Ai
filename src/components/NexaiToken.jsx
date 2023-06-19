@@ -5,12 +5,11 @@ import zigzag from "../assets/img/png/zigzag.png";
 const NexaiToken = () => {
   return (
     <section className="token_bg py-5 position-relative">
-  
       <img
         className=" position-absolute zigzag_position  start-0"
         src={zigzag}
         alt="zigzag"
-      />{" "}
+      />
       <img
         className=" position-absolute zigzag2_position  end-0"
         src={zigzag}
