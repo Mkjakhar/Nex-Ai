@@ -12,8 +12,8 @@ const BlockchainCrypto = () => {
       />
       <Container className="py-lg-5 my-lg-5">
         <Row className="py-md-4 justify-content-between align-items-center flex-lg-row flex-column-reverse">
-          <Col lg={7} data-aos="fade-down" data-aos-duration="1300">
-            <div className="ps-lg-5 ms-lg-4">
+          <Col xl={6} xxl={7} data-aos="fade-down" data-aos-duration="1300">
+            <div>
               <h2 className="fs_4x4l ff_futura fw-normal text_dark_black text-capitalize">
                 Blockchain & Cryptocurrency
               </h2>
