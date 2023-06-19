@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import slidershape from "../assets/img/svg/slidertokenshape.svg" 
+import slidershape from "../assets/img/svg/slidertokenshape.svg";
 const Community = () => {
   var settings = {
     dots: false,
@@ -49,19 +49,28 @@ const Community = () => {
   };
   return (
     <section className=" bg_blue overflow-hidden py-lg-5 position-relative">
-      <img src={slidershape} alt="slidershape" className="position-absolute start-0 top-0 slidershape d-none d-lg-block" />
+      <img
+        src={slidershape}
+        alt="slidershape"
+        className="position-absolute start-0 top-0 slidershape d-none d-lg-block"
+      />
       <Container className="py-5 my-md-5">
-        <div className="text-center pb-lg-5 position-relative z_index1">
+        <div
+          lg={7}
+          data-aos="fade-down"
+          data-aos-duration="1300"
+          className="text-center pb-lg-5 position-relative z_index1"
+        >
           <h2 className="ff_futura text_light_white fs_4x4l fw-normal mb-3 text-capitalize">
             Advantages for the Community
           </h2>
-          <p className="ff_futura text_light_white  fw-normal opacity_07 fs_md font_italic">
+          <p className="ff_futura text_light_white  fw-normal opacity_07 f  s_md font_italic">
             By building the software on blockchain, Nexai provides the following
             advantages
           </p>
         </div>
         <Slider {...settings} className="token_page_slider py-4 py-lg-5">
-          <div>
+          <div lg={7} data-aos="flip-left" data-aos-duration="1300">
             <h3 className="ff_futura fw-normal fs_3xl text-capitalize text_light_white">
               Rewards and Incentives
             </h3>
@@ -81,7 +90,12 @@ const Community = () => {
               user activity and fosters a stronger and more engaged community.
             </p>
           </div>
-          <div>
+          <div
+            lg={7}
+            data-aos="flip-left"
+            data-aos-duration="1300"
+            data-aos-delay="200"
+          >
             <h3 className="ff_futura fw-normal fs_3xl text-capitalize font_italic text_light_white">
               Economic Participation
             </h3>
@@ -105,7 +119,12 @@ const Community = () => {
               community.
             </p>
           </div>
-          <div>
+          <div
+            lg={7}
+            data-aos="flip-left"
+            data-aos-duration="1300"
+            data-aos-delay="400"
+          >
             <h3 className="ff_futura fw-normal fs_3xl text-capitalize font_italic line_height_160_per text_light_white">
               Sharing Economy and Peer-to-{" "}
               <span className="d-xl-block">Peer Transactions</span>
