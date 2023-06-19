@@ -19,19 +19,19 @@ const OurTeam = () => {
         className="position-absolute  end-0 our_team_right_shape_pos"
       />
       <Container className="py-lg-5 my-xl-3 mb-5 position-relative z-2">
-        <div className="text-center pt-1">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="text-center pt-1"
+        >
           <h2
             data-aos="fade-down"
-            data-aos-duration="1500"
+            data-aos-duration="1300"
             className=" ff_futura fw-normal fs_4x4l text_light_white text-capitalize"
           >
             Our team
           </h2>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className=" mb-0 pb-lg-5 mb-4 width_560px mx-auto ff_futura fw-normal text_light_white opacity_07 fs_xl"
-          >
+          <p className=" mb-0 pb-lg-5 mb-4 width_560px mx-auto ff_futura fw-normal text_light_white opacity_07 fs_xl">
             Proin orci nibh sed nunc malesuada. Nunc amet mattis elementum
             ultricies diam hac. Tellus scelerisque feugiat facilisis.
           </p>

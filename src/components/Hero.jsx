@@ -11,8 +11,8 @@ function Hero() {
           scrollTrigger: {
             trigger: ".first",
             start: "top 30%",
-            end: "bottom top", 
-           
+            end: "bottom top",
+
             // markers: true,
           },
         })
@@ -22,12 +22,11 @@ function Hero() {
             overflow: "hidden",
             x: "-50%",
             opacity: 0,
-         
           },
           {
             x: "0%",
             delay: 4.5,
-            opacity: 1, 
+            opacity: 1,
             opacity: 1,
             stagger: 0.1,
             ease: "power3.out",
@@ -53,11 +52,10 @@ function Hero() {
           ".hero_btn",
           {
             overflow: "hidden",
-           
+
             opacity: 0,
           },
           {
-          
             opacity: 1,
             duration: 1,
             stagger: 1,

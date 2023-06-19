@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LoaderHome from "./LoaderHome";
 import Header from "./Header";
 import Hero from "./Hero";
@@ -12,6 +12,10 @@ import Algorithum from "./Algorithum";
 import GetStarted from "./GetStarted";
 import Footer from "./Footer";
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <LoaderHome />
