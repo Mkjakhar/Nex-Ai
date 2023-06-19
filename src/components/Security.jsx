@@ -48,7 +48,8 @@ const Security = () => {
             md={11}
             lg={6}
             data-aos="fade-down-left"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
+            data-aso-delay="200"
             className="text-center text-lg-end"
           >
             <div className="position-relative max_w_503px ms-auto">
