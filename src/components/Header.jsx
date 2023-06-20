@@ -11,7 +11,7 @@ function Header(props) {
   }
   return (
     <section id="header" className="w-100 nav_bg_gradient position-relative">
-      <div className="layer__BottomRIght position-absolute "></div>
+      <div className="layer__BottomRIght position-absolute"></div>
       <nav
         data-aos="fade-down"
         data-aos-offset="0"
@@ -19,7 +19,7 @@ function Header(props) {
         data-aos-delay="2500"
         className="shadow_nav z_index2 position-relative"
       >
-        <div className="container ">
+        <div className="container">
           <div className="d-flex justify-content-between align-items-center py-1">
             <Link to="/">
               <img className="logo_size" src={logo} alt="LOGO-ICON" />
@@ -120,7 +120,7 @@ function Header(props) {
               </li>
             </ul>
             <ul className="d-flex gap-1 mb-0 p-0 mb-0 justify-content-center align-items-center mt-4">
-              <button className="btn_main border-0 ff_futura fw-semibold ">
+              <button className="btn_main border-0 ff_futura fw-semibold">
                 get started
               </button>
             </ul>

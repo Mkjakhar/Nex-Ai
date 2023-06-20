@@ -52,10 +52,10 @@ const OurTeam = () => {
               <img className="w-100 px-4 pt-4 height_300" src={ceo} alt="ceo" />
               <div className="bg_light_white whitebox transition300 py-3 d-flex align-items-center justify-content-between px-4">
                 <div className="transition250">
-                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize  ">
+                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize ">
                     John
                   </h3>
-                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black ">
+                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black">
                     Ceo
                   </p>
                 </div>
@@ -91,10 +91,10 @@ const OurTeam = () => {
               />
               <div className="bg_light_white whitebox transition300 py-3 d-flex align-items-center justify-content-between px-4">
                 <div className="transition250">
-                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize  ">
+                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize ">
                     Adam
                   </h3>
-                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black ">
+                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black">
                     Founder
                   </p>
                 </div>
@@ -117,7 +117,7 @@ const OurTeam = () => {
               </div>
             </div>
           </Col>
-          <Col lg={4} sm={6} className="pt-4 pt-sm-0 ">
+          <Col lg={4} sm={6} className="pt-4 pt-sm-0">
             <div
               data-aos="fade-left"
               data-aos-duration="1500"
@@ -130,10 +130,10 @@ const OurTeam = () => {
               />
               <div className="bg_light_white whitebox transition300 py-3 d-flex align-items-center justify-content-between px-4">
                 <div className="transition250">
-                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize  ">
+                  <h3 className="mb-0 ff_futura fw-normal fs_2x4l text_dark_black text-capitalize ">
                     Alex
                   </h3>
-                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black ">
+                  <p className="mb-0  ff_futura fw-normal fs_sm opacity_07 text_dark_black">
                     Developer
                   </p>
                 </div>

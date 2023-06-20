@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import { nexfordata } from "../pagejs/DataMap";

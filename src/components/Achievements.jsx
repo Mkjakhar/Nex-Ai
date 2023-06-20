@@ -7,7 +7,7 @@ import pinkhand from "../assets/img/svg/pinkhandshake.svg";
 import bluecup from "../assets/img/svg/bluecup.svg";
 const Achievements = () => {
   return (
-    <section className="py-5 ">
+    <section className="py-5">
       <Container className="py-lg-5 my-lg-5">
         <div>
           <h2

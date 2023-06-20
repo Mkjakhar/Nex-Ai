@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Shapr_flower from "../assets/img/svg/Shape__Flower.svg";
 
 function WhiteList() {

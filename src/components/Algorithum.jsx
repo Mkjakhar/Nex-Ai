@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import nlp from "../assets/img/svg/nlp.svg";
 import Slider from "react-slick";
 import { algorithumData } from "../pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg";

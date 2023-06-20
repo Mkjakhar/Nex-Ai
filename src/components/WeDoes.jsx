@@ -3,7 +3,6 @@ import Shapr_flower from "../assets/img/svg/Shape__Flower.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 function WeDoes() {
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     setTimeout(() => {
@@ -19,12 +18,10 @@ function WeDoes() {
         .fromTo(
           ".wedoesHead",
           {
-             
             opacity: 0,
             y: "100%",
           },
           {
-           
             y: "0%",
             opacity: 1,
             duration: 1,
@@ -76,7 +73,7 @@ function WeDoes() {
           alt="Shapr_flower"
         />
         <div className="container position-relative z_index3">
-          <div className="d-flex flex-column align-items-center justify-content-center ">
+          <div className="d-flex flex-column align-items-center justify-content-center">
             <h2 className="heading_common text_dark_black text-center text-capitalize mb-0 wedoesHead">
               NexAi does all this. And more.
             </h2>

@@ -27,7 +27,6 @@ function Hero() {
             x: "0%",
             delay: 4.5,
             opacity: 1,
-            opacity: 1,
             stagger: 0.1,
             ease: "power3.out",
           },
