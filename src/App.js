@@ -5,11 +5,11 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BackToTop from "./components/BackToTop";
-import Token from "./components/Token";
-import Home from "./components/Home";
-import About from "./components/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import TokensPage from "./pages/TokensPage";
 function App() {
   useEffect(() => {
     AOS.init({ once: true });
@@ -19,9 +19,9 @@ function App() {
     <>
       <BackToTop />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/tokens" element={<Token />}></Route>
-        <Route path="/about" element={<About />}></Route>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/tokens" element={<TokensPage />}></Route>
+        <Route path="/about" element={<AboutPage />}></Route>
       </Routes>
     </>
   );

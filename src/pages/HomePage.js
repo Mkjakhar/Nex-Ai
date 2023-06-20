@@ -1,23 +1,23 @@
 import React, { useEffect } from "react";
-import LoaderHome from "./LoaderHome";
-import Header from "./Header";
-import Hero from "./Hero";
-import Assistant from "./Assistant";
-import UniqueFeatures from "./UniqueFeatures";
-import BlockchainTechnology from "./BlockchainTechnology";
-import WeDoes from "./WeDoes";
-import Lights from "./Lights";
-import TokanUtility from "./TokanUtility";
-import Algorithum from "./Algorithum";
-import GetStarted from "./GetStarted";
-import Footer from "./Footer";
-const Home = () => {
+import LoaderHome from "../components/LoaderHome";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Assistant from "../components/Assistant";
+import UniqueFeatures from "../components/UniqueFeatures";
+import BlockchainTechnology from "../components/BlockchainTechnology";
+import WeDoes from "../components/WeDoes";
+import Lights from "../components/Lights";
+import TokanUtility from "../components/TokanUtility";
+import Algorithum from "../components/Algorithum";
+import GetStarted from "../components/GetStarted";
+import Footer from "../components/Footer";
+const HomePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div>
+    <>
       <LoaderHome />
       <div className="overflow-hidden">
         <div className="min_vh_100 d-flex flex-column">
@@ -38,8 +38,8 @@ const Home = () => {
         <GetStarted />
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
-export default Home;
+export default HomePage;
