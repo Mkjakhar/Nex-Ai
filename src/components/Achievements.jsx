@@ -8,26 +8,26 @@ import bluecup from "../assets/img/svg/bluecup.svg";
 const Achievements = () => {
   return (
     <section className="py-5 ">
-      <Container className=" py-lg-5 my-lg-5">
+      <Container className="py-lg-5 my-lg-5">
         <div>
           <h2
             data-aos="fade-down"
             data-aos-duration="1500"
-            className=" ff_futura text-capitalize text-center fw-normal text_dark_black fs_4x4l"
+            className="ff_futura text-capitalize text-center fw-normal text_dark_black fs_4x4l"
           >
             our Achievements
           </h2>
           <p
             data-aos="fade-up"
             data-aos-duration="1500"
-            className=" ff_futura width_730px mb-0 pb-2 op07 text-center fw-normal text_dark_black fs_md mx-auto mt-3  "
+            className="ff_futura width_730px mb-0 pb-2 op07 text-center fw-normal text_dark_black fs_md mx-auto mt-3  "
           >
             Donec cursus eget eleifend aliquam ultrices turpis. Nunc diam tellus
             turpis arcu. Nulla magna lobortis leo tristique nam commodo. Massa
             quam dolor risus enim.
           </p>
         </div>
-        <Row className=" justify-content-center  pt-md-5 pt-4 mt-lg-4">
+        <Row className="justify-content-center  pt-md-5 pt-4 mt-lg-4">
           <Col
             xl={4}
             md={6}
@@ -40,11 +40,11 @@ const Achievements = () => {
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
                 16
               </p>
-              <p className=" ff_futura fw-normal fs_sm text_dark_black mb-0">
+              <p className="ff_futura fw-normal fs_sm text_dark_black mb-0">
                 Specialist team members of nexAi
               </p>
             </div>
-          </Col>{" "}
+          </Col>
           <Col
             xl={4}
             md={6}
@@ -57,11 +57,11 @@ const Achievements = () => {
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
                 19
               </p>
-              <p className=" ff_futura fw-normal fs_sm text_dark_black mb-0">
+              <p className="ff_futura fw-normal fs_sm text_dark_black mb-0">
                 States have our technology
               </p>
             </div>
-          </Col>{" "}
+          </Col>
           <Col
             xl={4}
             md={6}
@@ -74,11 +74,11 @@ const Achievements = () => {
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
                 1231
               </p>
-              <p className=" ff_futura fw-normal fs_sm text_dark_black mb-0">
+              <p className="ff_futura fw-normal fs_sm text_dark_black mb-0">
                 Happy clients of NexAi
               </p>
             </div>
-          </Col>{" "}
+          </Col>
           <Col
             xl={4}
             md={6}
@@ -91,11 +91,11 @@ const Achievements = () => {
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
                 18
               </p>
-              <p className=" ff_futura fw-normal fs_sm text_dark_black mb-0">
+              <p className="ff_futura fw-normal fs_sm text_dark_black mb-0">
                 Partners happy to work with us
               </p>
             </div>
-          </Col>{" "}
+          </Col>
           <Col
             xl={4}
             md={6}
@@ -108,7 +108,7 @@ const Achievements = () => {
               <p className="mb-3 mt-4 pt-1 ff_futura fw-normal fs_3x6l text_dark_black">
                 12k
               </p>
-              <p className=" ff_futura fw-normal fs_sm text_dark_black mb-0">
+              <p className="ff_futura fw-normal fs_sm text_dark_black mb-0">
                 5 star ratings from our customers
               </p>
             </div>

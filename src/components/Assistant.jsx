@@ -67,8 +67,7 @@ function Assistant() {
                   <em>
                     Nexai is an advanced
                     <span className="text_dark_blue cursor_pointer">
-                      {" "}
-                      AI-powered{" "}
+                      AI-powered
                     </span>
                     home assistant that brings the future to your fingertips.
                     With its ability to engage in natural, fluent conversations
@@ -86,8 +85,7 @@ function Assistant() {
                   <em>
                     Nexai offers an incredibly
                     <span className="text_dark_blue cursor_pointer">
-                      {" "}
-                      futuristic experience{" "}
+                      futuristic experience
                     </span>
                     . It can take the initiative to ask about your day, schedule
                     meetings, provide timely reminders assist with cooking by

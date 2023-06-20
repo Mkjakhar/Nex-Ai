@@ -17,16 +17,14 @@ function Globe() {
     }
   });
 
-
-
   return (
     <mesh ref={globeRef}>
       <sphereBufferGeometry args={[1.7, 64, 64]} />
       <meshStandardMaterial
-       side={THREE.DoubleSide}
-       transparent // Make the material transparent
-       opacity={1} // Set the opacity level (0.0 to 1.0)
-       alphaTest={0.1} 
+        side={THREE.DoubleSide}
+        transparent // Make the material transparent
+        opacity={1} // Set the opacity level (0.0 to 1.0)
+        alphaTest={0.1}
         map={new THREE.TextureLoader().load(earthTexture)}
       />
     </mesh>
@@ -62,9 +60,7 @@ function Controls() {
   return <orbitControls ref={controlsRef} args={[camera, gl.domElement]} />;
 }
 
-
 function BlockchainTechnology() {
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     setTimeout(() => {
@@ -81,11 +77,10 @@ function BlockchainTechnology() {
           ".blockcahinHEading",
           {
             overflow: "hidden",
-             
+
             opacity: 0,
           },
           {
-            
             opacity: 1,
             duration: 1,
             ease: "power3.out",
@@ -111,13 +106,13 @@ function BlockchainTechnology() {
           ".ImgEarth",
           {
             overflow: "hidden",
-            scale:0,
+            scale: 0,
             opacity: 0,
             rotation: 180,
           },
           {
             rotation: 0,
-            scale:1,
+            scale: 1,
             opacity: 1,
             duration: 1,
             stagger: 1,
@@ -129,13 +124,13 @@ function BlockchainTechnology() {
           ".box_blockchain_pos1",
           {
             overflow: "hidden",
-            scale:0,
+            scale: 0,
             opacity: 0,
           },
           {
-            scale:1,
+            scale: 1,
             opacity: 1,
-            duration: 1, 
+            duration: 1,
             ease: "power3.out",
           },
           "-=0.5"
@@ -144,13 +139,13 @@ function BlockchainTechnology() {
           ".box_blockchain_pos2",
           {
             overflow: "hidden",
-            scale:0,
+            scale: 0,
             opacity: 0,
           },
           {
-            scale:1,
+            scale: 1,
             opacity: 1,
-            duration: 1, 
+            duration: 1,
             ease: "power3.out",
           },
           "-=0.5"
@@ -159,13 +154,13 @@ function BlockchainTechnology() {
           ".box_blockchain_pos3",
           {
             overflow: "hidden",
-            scale:0,
+            scale: 0,
             opacity: 0,
           },
           {
-            scale:1,
+            scale: 1,
             opacity: 1,
-            duration: 1, 
+            duration: 1,
             ease: "power3.out",
           },
           "-=0.5"
@@ -174,32 +169,29 @@ function BlockchainTechnology() {
           ".box_blockchain_pos4",
           {
             overflow: "hidden",
-            scale:0,
+            scale: 0,
             opacity: 0,
           },
           {
-            scale:1,
+            scale: 1,
             opacity: 1,
             duration: 1,
             stagger: 1,
             ease: "power3.out",
           },
           "-=0.5"
-        )
-        
+        );
     });
   }, []);
 
   return (
     <>
-   
       <section className="py-5 bg_blue  position-relative overflow-hidden">
         <img
           className="Shinewave_img__BLockCahin position-absolute z_index1"
           src={Shinewave_img__BLockCahin}
           alt=""
         />
-
 
         <div className="container position-relative z_index3 pb-5">
           <div className="pt-lg-5">
@@ -213,28 +205,32 @@ function BlockchainTechnology() {
             <div className="pt-3 mt-3 position-relative ">
               <div
                 style={{ minHeight: "105px" }}
-                className="box_blockchain_pos1 d-none  d-flex align-items-center position-absolute text-center d-sm-flex px-md-4 px-3 py-4 ">
+                className="box_blockchain_pos1 d-none  d-flex align-items-center position-absolute text-center d-sm-flex px-md-4 px-3 py-4 "
+              >
                 <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                   Security and Privacy
                 </h3>
               </div>
               <div
                 style={{ minHeight: "105px" }}
-                className="box_blockchain_pos2 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 ">
+                className="box_blockchain_pos2 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 "
+              >
                 <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                   Self-learning and Personalization
                 </h3>
               </div>
               <div
                 style={{ minHeight: "105px" }}
-                className="box_blockchain_pos3 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 ">
+                className="box_blockchain_pos3 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 "
+              >
                 <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                   Transparent and Reliable Data Management
                 </h3>
               </div>
               <div
                 style={{ minHeight: "105px" }}
-                className="box_blockchain_pos4 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 ">
+                className="box_blockchain_pos4 d-none  position-absolute text-center d-sm-inline-block px-md-4 px-3 py-4 "
+              >
                 <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                   Automated & Transparent Transactions
                 </h3>
@@ -242,43 +238,47 @@ function BlockchainTechnology() {
               <div className="d-flex flex-column justify-content-center mb-4 gap-3 d-sm-none">
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos1  d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-3 mx-auto ">
+                  className="box_blockchain_pos1  d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-3 mx-auto "
+                >
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                     Security and Privacy
                   </h3>
                 </div>
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos2 d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-4 mx-auto ">
+                  className="box_blockchain_pos2 d-flex align-items-center justify-content-center  text-center d-sm-none px-md-4 px-3 py-4 mx-auto "
+                >
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white  ">
                     Self-learning and Personalization
                   </h3>
                 </div>
               </div>
               {/* <div className="d-flex  justify-content-center">
-                <img className=" " src={Earth} alt="" />
+                <img className="" src={Earth} alt="" />
               </div> */}
               <Canvas
-      className="ImgEarth "
-      style={{ height: "100vh" }}
-      camera={{ position: [0, 0, 3] }}
-    >
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <Globe />
-      <Controls />
-    </Canvas>
+                className="ImgEarth "
+                style={{ height: "100vh" }}
+                camera={{ position: [0, 0, 3] }}
+              >
+                <ambientLight />
+                <pointLight position={[10, 10, 10]} />
+                <Globe />
+                <Controls />
+              </Canvas>
               <div className="d-flex flex-column justify-content-center gap-3 mt-4 d-sm-none">
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos3 d-sm-none d-flex align-items-center justify-content-center  text-center mx-auto px-md-4 px-3 py-3 ">
+                  className="box_blockchain_pos3 d-sm-none d-flex align-items-center justify-content-center  text-center mx-auto px-md-4 px-3 py-3 "
+                >
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                     Transparent and Reliable Data Management
                   </h3>
                 </div>
                 <div
                   style={{ minHeight: "90px" }}
-                  className="box_blockchain_pos4 d-sm-none d-flex align-items-center justify-content-center   text-center mx-auto px-md-4 px-3 py-3 ">
+                  className="box_blockchain_pos4 d-sm-none d-flex align-items-center justify-content-center   text-center mx-auto px-md-4 px-3 py-3 "
+                >
                   <h3 className="mb-0 ff_futura fs_2x4l fw-normal text_light_white ">
                     Automated & Transparent Transactions
                   </h3>

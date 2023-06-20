@@ -6,12 +6,12 @@ const NexaiToken = (props) => {
   return (
     <section className="token_bg py-5 position-relative">
       <img
-        className=" position-absolute zigzag_position top-0 start-0  zigzag_animation"
+        className="position-absolute zigzag_position top-0 start-0  zigzag_animation"
         src={zigzag}
         alt="zigzag"
       />
       <img
-        className=" position-absolute zigzag2_position top-0 end-0 zigzag_animation2"
+        className="position-absolute zigzag2_position top-0 end-0 zigzag_animation2"
         src={zigzag}
         alt="zigzag"
       />

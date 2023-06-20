@@ -48,7 +48,7 @@ const Community = () => {
     ],
   };
   return (
-    <section className=" bg_blue overflow-hidden py-lg-5 position-relative">
+    <section className="bg_blue overflow-hidden py-lg-5 position-relative">
       <img
         src={slidershape}
         alt="slidershape"
@@ -123,8 +123,8 @@ const Community = () => {
             data-aos-delay="400"
           >
             <h3 className="ff_futura fw-normal fs_3xl text-capitalize font_italic line_height_160_per text_light_white">
-              Sharing Economy and Peer-to-{" "}
-              <span className="d-xl-block">Peer Transactions</span>
+              Sharing Economy and Peer-to-
+              <span className="d-xl-block"> Peer Transactions </span>
             </h3>
             <p className="ff_futura fw-normal fs_sm  text_light_white opacity_07 pt-3 line_height_160_per">
               NexCoin enables seamless and secure sharing economy within

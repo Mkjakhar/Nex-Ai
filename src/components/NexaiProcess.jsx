@@ -24,11 +24,11 @@ const NexaiProcess = () => {
             data-aos-duration="1300"
             className="processcommon_box pink_box cursor_pointer"
           >
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Purchasing Nexai Products
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               Nex AI tokens will be the primary currency for acquiring Nexai's
               extensive range of software solutions, hardware devices, including
               drones and sensors, and other smart home products available on the
@@ -38,11 +38,11 @@ const NexaiProcess = () => {
             </p>
           </div>
           <div className="processcommon_box green_box cursor_pointer">
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Accessing Exclusive Content
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               By holding Nex AI tokens, users will gain privileged access to
               exclusive content within the Nexai platform. These tokens will
               unlock premium features, advanced functionalities, and specialized
@@ -51,11 +51,11 @@ const NexaiProcess = () => {
             </p>
           </div>
           <div className="processcommon_box purple_box cursor_pointer">
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Loyalty and Rewards
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               The Nexai ecosystem will feature a robust loyalty program,
               rewarding users with Nex AI tokens for their active engagement,
               ongoing participation, and dedicated usage of Nexai's products and
@@ -66,11 +66,11 @@ const NexaiProcess = () => {
             </p>
           </div>
           <div className="processcommon_box yellow_box cursor_pointer">
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Participating in Governance
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               Nex AI token holders will play a vital role in the governance of
               the Nexai ecosystem. Through voting mechanisms, token holders will
               have a direct say in the decision-making process. They can express
@@ -80,11 +80,11 @@ const NexaiProcess = () => {
             </p>
           </div>
           <div className="processcommon_box pink_box cursor_pointer">
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Peer-to-Peer Transactions
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               Nex AI tokens will enable seamless peer-to-peer transactions
               within the Nexai community. Users will have the ability to
               exchange tokens with others for various purposes, such as
@@ -94,11 +94,11 @@ const NexaiProcess = () => {
             </p>
           </div>
           <div className="processcommon_box green_box cursor_pointer">
-            <img className=" w_54" src={checkbox} alt="checkbox" />
-            <p className=" mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
+            <img className="w_54" src={checkbox} alt="checkbox" />
+            <p className="mb-0 ff_futura mt-2 fw-normal fs_2x8l text_dark_black">
               Token Staking and Rewards
             </p>
-            <p className=" mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
+            <p className="mb-0 ff_futura fw-normal fs_md mt-2 text_dark_black opacity_07">
               Nex AI tokens will support staking mechanisms, allowing users to
               lock up their tokens for a specified period. By staking their
               tokens, users will earn additional rewards, such as interest,

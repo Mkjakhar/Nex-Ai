@@ -102,9 +102,8 @@ const Algorithum = () => {
             Within Nexai, we utilize several advanced algorithms to enable the
             sophisticated features
             <span className="d-xl-block">
-              {" "}
               and capabilities of our home assistant. Here are some of the key
-              algorithms we employ:{" "}
+              algorithms we employ:
             </span>
           </p>
         </Container>
