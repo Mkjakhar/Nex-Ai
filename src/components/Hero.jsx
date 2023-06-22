@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import video from "../assets/video/nex-ai.mp4";
+import video from "../assets/video/herosecvideo.webm";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Hero() {
