@@ -3,9 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import { accordian } from "../pagejs/DataMap";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 function TokanUtility() {
-  
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     setTimeout(() => {
@@ -15,7 +13,6 @@ function TokanUtility() {
             trigger: ".tokan",
             start: "top 30%",
             end: "bottom top",
-            // markers: true,
           },
         })
         .fromTo(
@@ -23,7 +20,6 @@ function TokanUtility() {
           {
             scaleX: "50deg",
             opacity: 0,
-           
           },
           {
          
