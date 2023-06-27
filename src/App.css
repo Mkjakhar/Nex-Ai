@@ -690,10 +690,6 @@
   .min_vh_100 {
     min-height: 100vh;
   }
-
-  .container {
-    width: 1140px;
-  }
 }
 
 @media (min-width: 1600px) {
