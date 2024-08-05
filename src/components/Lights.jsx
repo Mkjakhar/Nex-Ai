@@ -1,14 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import girlImg from "../assets/img/webp/girl-img.webp";
 import Slider from "react-slick";
-import { Slider__Data } from "../pagejs/DataMap";
+import { Slider__Data } from "../Pagejs/DataMap";
 import { Container } from "react-bootstrap";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Lights() {
-
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     setTimeout(() => {
@@ -18,29 +16,25 @@ function Lights() {
             trigger: ".serviceslider",
             start: "top 40%",
             end: "bottom top",
-            scrub:true,
+            scrub: true,
             // markers: true,
           },
         })
         .fromTo(
           ".Img_width_Light_Custom",
           {
-            
             opacity: 0,
             x: "-50%",
-          
           },
           {
-           
             x: "0%",
             opacity: 1,
             duration: 1,
-         
+
             ease: "power3.out",
           },
           "-=1"
-        )
-       
+        );
     });
   }, []);
 

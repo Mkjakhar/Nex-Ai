@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
-import { nexfordata } from "../pagejs/DataMap";
+import { nexfordata } from "../Pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg";
 import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 const NexFor = () => {

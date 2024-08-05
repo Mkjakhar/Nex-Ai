@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
-import { algorithumData } from "../pagejs/DataMap";
+import { algorithumData } from "../Pagejs/DataMap";
 import sliderArrow from "../assets/img/svg/slider-arrow.svg";
 import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 import { gsap } from "gsap";

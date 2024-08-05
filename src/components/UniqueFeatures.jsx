@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Unique } from "../pagejs/DataMap";
+import { Unique } from "../Pagejs/DataMap";
 import Pos_FLower_Unique from "../assets/img/svg/Shape--Flower2.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
